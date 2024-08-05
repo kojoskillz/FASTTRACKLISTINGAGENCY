@@ -27,15 +27,31 @@ const homepage = () => (
   // mainpage
   <div className=' pb-[10rem] home'>
     <h1 className='font-extrabold text-red-500 text-8xl pt-20 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
-      <span className='lawn_color1' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>   <span className='text-white' data-aos='fade' data-aos-duration='2000'>Ready To Elevate Your Cryptocurrency project to new heights?</span>
+      <span className='lawn_color1' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>   <span className='text-white font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>Ready To Elevate Your Cryptocurrency project to new heights?</span>
     </h1>
-    <p className='text-slate-500 font-normal text-xl text-center lawn_color text2' data-aos='fade' data-aos-duration='2000'>
-      Launch your crypto project to new heights with us! We specialize in getting you listed on top exchanges,<br /> boosting visibility and credibility.
-      Partner with us and watch your project soar to new levels of success and recognition.
+    <p className='text-slate-50 font-semibold -mt-10  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
+      Launch your crypto project to new heights with us! and get listed on top exchanges,boosting your visibility and credibility.
     </p>
 
-    <div className='m-auto grid place-content-center mt-8 ' data-aos='zoom-in' data-aos-duration='4000'>
-      <a className="btn" href="#">Join Now</a>
+    <div className='m-auto flex gap-7 place-content-center mt-8 ' data-aos='zoom-in' data-aos-duration='4000'>
+    <button>
+       <a className="btn" href="#">Join Now</a>
+    </button>
+      
+    <div className='bg-transparent rounded-lg b w-32 text-center border-gray-400 glass_containerQ text-white p-2 '>
+       <a className="btn font-bold   " href="#">Get Enrolled</a>
+    </div>  
+    </div>
+
+    
+      {/* circle */}
+      <div className='flex mt-10 place-content-center boost'>
+             <img src={img17} alt="" className='h-14 mt-3 w-14  flex rounded-full place-content-center' />
+          <div className='grid'>
+             <h3 className='text-white/95 text-lg font-bold text-wrap p-1'> "They are the best listing agency I know of" </h3>
+             <h5 className='text-gray-300  text-sm font-light text-wrap '> "Joe Winston,CEO Nexux Inc. " </h5>
+         </div>
+      
     </div>
     {/* horizontal_line */}
     <div className='grid place-content-center m-auto rounded-full mt-20'>
@@ -46,7 +62,7 @@ const homepage = () => (
     {/* section0 */}
     <div className='-mt-[18rem] bg-black sec0 '>
       <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
-        Partnered with leading companies such as
+        Partnered with leading companies such as...
       </h1>
       {/* partners_images */}
 
@@ -68,7 +84,7 @@ const homepage = () => (
 
 
       {/* why_choose_us */}
-      <div className='flex jockey-one-regular -mt-20 mb-12 p-20 '>
+      <div className='flex jockey-one-regular -mt-32 mb-12 p-20 '>
         {/* left_float */}
         <h1 className='text-white  lawn_color font-bold text-7xl chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
@@ -119,7 +135,7 @@ const homepage = () => (
                   Tailored Marketing Strategies
                 </h1>
                 <p className='text-lg text-gray-500 p-6 '>
-                  Our agency offers additional marketing services  to support your projetcs success beyond
+                  Our agency offers additional marketing services  to support your projects success beyond
                   the listing itself. We help develop
                 </p>
                 <img src={img21} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
@@ -147,7 +163,10 @@ const homepage = () => (
 
         {/* button */}
         <div className=' p-6 join' data-aos='zoom-in' data-aos-duration='2000'>
+          <button>
           <a className="btn" href="#">Join Now</a>
+          </button>
+          
         </div>
 
         <div className='absolute float-right ml-[35rem] -mt-[28rem] img16'>
@@ -280,8 +299,8 @@ const homepage = () => (
               </h1>
               <div className='flex p-5 mt-5 '>
                 <img src={img17} alt="" className='rounded-full w-12 h-12 img17' />
-                <h1 className='jockey-one-regular text-2xl text-white mt-2 ml-4 text-center text6'>
-                  Josephine Ezekiel - <span className='text-red-400  lawn_color1 text6_p'> Founder </span>
+                <h1 className='jockey-one-regular  lawn_color1  mt-2 ml-4 text-center text6'>
+                  Fasttrack 
                 </h1>
               </div>
 
