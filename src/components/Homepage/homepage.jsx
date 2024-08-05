@@ -84,7 +84,7 @@ const homepage = () => (
 
 
       {/* why_choose_us */}
-      <div className='flex jockey-one-regular -mt-32 mb-12 p-20 '>
+      <div className='flex jockey-one-regular -mt-32 mb-2 p-20 '>
         {/* left_float */}
         <h1 className='text-white  lawn_color font-bold text-7xl chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
@@ -218,7 +218,7 @@ const homepage = () => (
 
       {/* why_choose_us_ends */}
 
-      <div className='mt-44  '>
+      <div className='-mt-16  '>
 
         <h1 className='text-white text-wrap text-7xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
           Members Accomplishment
@@ -229,7 +229,7 @@ const homepage = () => (
 
         <div className='flex place-content-center gap-32 grid_rate'>
           <div className='grid text-wrap text-center mt-20'>
-            <h1 className='text-9xl  jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-9xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               +120
             </h1>
             <h3 className=' lawn_color1 text-2xl rate_p' data-aos='slide-up' data-aos-duration='2000'>
@@ -263,7 +263,7 @@ const homepage = () => (
           <div className='flex gap-5 place-content-center percent_grid'>
             <div className=' glass_container6 grid place-content-center mt-12 ' data-aos='zoom-in' data-aos-duration='2500'>
               <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
-                99.9%
+                100%
               </h1>
               <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
                 Credibility
@@ -279,11 +279,11 @@ const homepage = () => (
               </p>
             </div>
 
-            <div className=' glass_container6 grid place-content-center mt-12' data-aos='zoom-in' data-aos-duration='1500'>
-              <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
+            <div className=' glass_container6 grid place-content-center mt-12 pb-10' data-aos='zoom-in' data-aos-duration='1500'>
+              <h1 className='jockey-one-regular text-6xl text-white p-10 percent_grid_text'>
                 100%
               </h1>
-              <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
+              <p className=' lawn_color1 jockey-one-regular text-xl p-2 -mt-12 text-white percent_grid_p'>
                 Transparency
               </p>
             </div>
