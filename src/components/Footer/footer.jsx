@@ -21,12 +21,12 @@ const footer = () => {
                 </div>
 
                 <div className='mt-8 text7'>
-                        <p className='text-white jockey-one-regular'>
+                        {/* <p className='text-white jockey-one-regular'>
                             St 121, Lagos-Nigeria
                         </p>
                         <p className='text-white jockey-one-regular'>
                         Call Us:<b>+234 8888888</b> 
-                        </p>
+                        </p> */}
                         <p className='text-white jockey-one-regular'>
                             FastTracklistingagency121@gmail.com
                         </p>
