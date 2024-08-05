@@ -31,7 +31,7 @@ const homepage = () => (
     </h1>
     <p className='text-slate-500 font-normal text-xl text-center lawn_color text2' data-aos='fade' data-aos-duration='2000'>
       Launch your crypto project to new heights with us! We specialize in getting you listed on top exchanges,<br /> boosting visibility and credibility.
-      From start to finish, we'll guide you through the crypto landscape and help you achieve success. <br /> Partner with us and watch your project soar to new levels of success and recognition.
+      Partner with us and watch your project soar to new levels of success and recognition.
     </p>
 
     <div className='m-auto grid place-content-center mt-8 ' data-aos='zoom-in' data-aos-duration='4000'>
