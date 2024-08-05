@@ -30,48 +30,44 @@ body{
     font-weight: 400;
     font-style: normal;
   }
+
+  button {
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    height: 40px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg,#ff720e,#fb2020);
+    border: 0 solid;
+    overflow: hidden;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+  
+    padding-left: 30px;
+  }
   
 
 
-  .btn {
-    display: inline-block;
-    padding: 0.9rem 1.8rem;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    border: 1px solid rgb(252, 70, 100);
-    cursor: pointer;
-    position: relative;
-    background-color: transparent;
-    text-decoration: none;
-    overflow: hidden;
-    z-index: 1;
-    font-family: inherit;
-   }
-   
-   .btn::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(252, 70, 100);
-    transform: translateX(-100%);
-    transition: all .3s;
-    z-index: -1;
-   }
-   
-   .btn:hover::before {
-    transform: translateX(0);
-   }
 
    .dot{
     border: dotted 1px;
    }
 
    .lawn_color{
-    background:linear-gradient(to right,rgb(120, 120, 120),rgb(255, 255, 255),rgb(120, 120, 120));
+    background:linear-gradient(to right,rgb(228, 228, 228),rgb(255, 255, 255),rgb(190, 190, 190));
     color:linear-gradient();
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -81,6 +77,8 @@ body{
   }
 
    .lawn_color1{
+    text-align: center;
+    font-weight: bolder;
     background:linear-gradient(to right,rgb(255, 40, 40),rgb(255, 161, 94) 100%);
     color:linear-gradient();
     -webkit-background-clip: text;
@@ -93,7 +91,7 @@ body{
 
 .sec0{
     padding-bottom: 17rem;
-    --color: rgba(19, 19, 19, 0.177);
+    --color: rgba(39, 38, 38, 0.178);
     background-color: #000000;
     background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
         linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
@@ -107,7 +105,7 @@ body{
       /* From https://css.glass */
 background: rgba(22, 22, 22, 0.104);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
+backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.178);
 
@@ -139,7 +137,7 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.178);
+  background: rgba(22, 22, 22, 0.582);       
 height: 28rem;
 width: 20rem;
 
@@ -151,7 +149,7 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.178);
+background: rgba(22, 22, 22, 0.582);
 height: 25rem;
 width: 20rem;
 margin-top: -2.5rem;
@@ -159,7 +157,7 @@ margin-top: -2.5rem;
 
 .glass_container1{
     /* From https://css.glass */
-background: rgba(29, 29, 29, 0.2);
+    background: rgba(22, 22, 22, 0.582);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
@@ -171,7 +169,7 @@ width: 20rem;
 
 .glass_container4{
     /* From https://css.glass */
-background: rgba(29, 29, 29, 0.2);
+    background: rgba(22, 22, 22, 0.582);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
@@ -218,6 +216,16 @@ border: 1px solid rgba(255, 255, 255, 0.171);
 height: 35rem;
 width: 70rem;
 padding: 5rem;
+}
+
+.glass_containerQ{
+    /* From https://css.glass */
+background: rgba(60, 60, 60, 0.14);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.171);
 }
 
 
@@ -309,9 +317,7 @@ padding: 5rem;
 
   /* media_queries */
   @media screen and (max-width:720px) {
-    .glass_containerX{
-        display: none;
-       }
+ 
 
        *{
         margin: 0;
@@ -319,7 +325,7 @@ padding: 5rem;
         box-sizing: border-box;
         scroll-behavior: smooth;
         
-    }
+     }
     
 
        body,html{
@@ -327,17 +333,55 @@ padding: 5rem;
           overflow-x: hidden;
        }
 
+
+       .glass_containerX{
+        display: block;
+        height: 5rem;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+       }
+
+
+       /* size-adjust of glass_container */
+      
+      .glass_container1,.glass_containerY,.glass_container3,.glass_container4{
+          /* From https://css.glass */
+          background: rgba(22, 22, 22, 0.582);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(5px);
+          border: 1px solid rgba(255, 255, 255, 0.178);
+          height: 28rem;
+          width: 20rem;
+          display: grid;
+          place-content: center;
+          margin: auto;
+      }
+
+
+
+       .ul_list{
+        display: none;
+       }   
+
+       .logo{
+        margin-left: -2.5rem;
+        display: none;
+       }
+
+
        .text1{
         text-wrap: wrap;
-        font-size: 3.2rem;
+        font-size: 2.2rem;
         padding: 60px;
-        padding-top: 10rem;
+        padding-top: 8rem;
        }
 
        .text2{
         text-wrap: wrap;
-        padding: 20px;
-        font-size: 25px;
+        font-size: 15px;
+        margin-top: -4rem;
        }
 
        .lawn_color1{
@@ -356,19 +400,23 @@ padding: 5rem;
         display: grid;
         place-content: center;
         margin: auto;
-        margin-top: 7rem;
+        margin-top: -25rem;
         margin-left: -46rem;
       }
 
       .containerY{
-        margin-left: -23rem;
-        margin-top: 32rem;
+        margin-left: -22rem;
+        margin-top:62rem;
         
       }
 
+      .glass_container3{
+          margin-top: -2rem;
+      }
+
       .containerX{
-        margin-left: -23rem;
-        margin-top: 25rem;
+        margin-left: -22rem;
+        margin-top: 29rem;
       
       }
 
@@ -551,12 +599,13 @@ padding: 5rem;
       }
 
       .text6{
-        font-size: 20px;
-        margin-left: -.2rem;
+        font-size: 40px;
+        margin-left: 1.5rem;
       }
 
     .text6_p{
         font-size: 20px;
+        color: white;
       }
   
     .img17{
@@ -590,5 +639,18 @@ padding: 5rem;
       margin-top: -2rem; 
      }
 
+     .boost{
+      gap: 20px;
+      display: flex;
+      padding: 25px; 
+      margin: auto;
+      place-content: center;
+    
+    }
+
     }
   
+
+
+
+    
