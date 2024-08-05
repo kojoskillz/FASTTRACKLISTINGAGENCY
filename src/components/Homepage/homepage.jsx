@@ -1,0 +1,319 @@
+import React from 'react';
+import img0 from './images_home/binance.png';
+import img1 from './images_home/bitmart.png';
+import img2 from './images_home/full-coinw-logo.png';
+import img3 from './images_home/kucoin.png';
+import img4 from './images_home/lbank.png';
+import img5 from './images_home/mexc-xep.png';
+import img6 from './images_home/okx-review.png';
+import img7 from './images_home/probit.png';
+import img10 from './images_home/img10.webp';
+import img11 from './images_home/cryptocurrency.png';
+import img12 from './images_home/seo.png';
+import img13 from './images_home/clipboard (2).png';
+import img14 from './images_home/megaphone (1).png';
+import img15 from './images_home/cryptocurrency.png';
+import img16 from './images_home/img16.png';
+import img17 from './images_home/face2.jpg';
+import img18 from './images_home/robothand.png';
+import img19 from './images_home/bitcoin.png';
+import img20 from './images_home/crypto.png';
+import img21 from './images_home/crypt2.png';
+ 
+
+
+
+const homepage = () => (
+  // mainpage
+  <div className=' pb-[10rem] home'>
+    <h1 className='font-extrabold text-red-500 text-8xl pt-20 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
+      <span className='lawn_color1' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>   <span className='text-white' data-aos='fade' data-aos-duration='2000'>Ready To Elevate Your Cryptocurrency project to new heights?</span>
+    </h1>
+    <p className='text-slate-500 font-normal text-xl text-center lawn_color text2' data-aos='fade' data-aos-duration='2000'>
+      Launch your crypto project to new heights with us! We specialize in getting you listed on top exchanges,<br /> boosting visibility and credibility.
+      From start to finish, we'll guide you through the crypto landscape and help you achieve success. <br /> Partner with us and watch your project soar to new levels of success and recognition.
+    </p>
+
+    <div className='m-auto grid place-content-center mt-8 ' data-aos='zoom-in' data-aos-duration='4000'>
+      <a className="btn" href="#">Join Now</a>
+    </div>
+    {/* horizontal_line */}
+    <div className='grid place-content-center m-auto rounded-full mt-20'>
+      <div className='fade_rule'></div>
+    </div>
+    <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' />
+
+    {/* section0 */}
+    <div className='-mt-[18rem] bg-black sec0 '>
+      <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
+        Partnered with leading companies such as
+      </h1>
+      {/* partners_images */}
+
+      <marquee behavior="" direction="" scrolldelay="10" width="90%">
+        <div className='flex place-content-center gap-32'>
+          <img src={img0} alt="" className='w-[30rem]   h-[30rem] -mt-[8.4rem]  -mr-10 object-contain ' />
+          <img src={img1} alt="" className='w-52 h-52 object-contain ' />
+          <img src={img2} alt="" className='w-52 h-52 object-contain ' />
+          <img src={img3} alt="" className='w-52 h-52 object-contain ' />
+          <img src={img4} alt="" className='w-[10rem] h-[10rem] mt-6  object-contain ' />
+          <img src={img5} alt="" className='w-[8rem]  h-[8rem]  mt-10 -mr-10  object-contain ' />
+          <img src={img6} alt="" className='w-[14rem] h-[14rem] object-contain ' />
+          <img src={img7} alt="" className='w-[14rem] h-[14rem] -ml-10  object-contain ' />
+        </div>
+      </marquee>
+
+      {/* glow */}
+      <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
+
+
+      {/* why_choose_us */}
+      <div className='flex jockey-one-regular -mt-20 mb-12 p-20 '>
+        {/* left_float */}
+        <h1 className='text-white  lawn_color font-bold text-7xl chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
+          Why <span className=''>Choose</span><br /> Us?
+        </h1>
+        
+        {/* rigth_float */}
+        <div className='float-right  ml-[26rem] '>
+             
+       
+
+            {/* glass_container */}
+            <div className=' grid grid-cols-2 gap-y-20 gap-x-2 -ml-60 containerQ' data-aos='slide-up' data-aos-duration='2000'>
+              <div className='glass_container1'>
+                <h1 className='text-white  p-6  text-xl'>
+                  Expertise & Experience
+                </h1>
+                <p className='text-lg text-gray-500 p-6 '>
+                  Our agency specialises in the process of getting cryptocurrencies listed on exchanges.We possees in-depth
+                  knowledge of listing requirements,documentations and best practices.
+                </p>
+                <img src={img18} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
+              </div>
+
+              <div className='glass_container containerY' data-aos='slide-up' data-aos-duration='2000'>
+                <h1 className='text-white p-6  text-xl'>
+                  Industry Connection
+                </h1>
+                <img src={img19} alt="" className=' m-auto -mt-8    w-[5rem] h-[8rem] object-contain '/>
+                <p className='text-lg text-gray-500 p-6 '>
+                  Have established relationships and connections with various Cryptocurrency exchanges.We leverage these connections to facilitate
+                  the listings process, negotiate favourable terms, and enhance the projects visiblity within the exchange ecosystem.
+                </p>
+              </div>
+              <div className='glass_container3' data-aos='slide-up' data-aos-duration='2000'>
+                <h1 className='text-white p-6  text-xl'>
+                  Market Research & Analysis
+                </h1>
+                <img src={img20} alt="" className=' m-auto -mt-2   w-[12rem] h-[12rem] object-contain '/>
+                <p className='text-lg text-gray-500 p-6 -mt-10 '>
+                  As a reputable listing agency, we conduct thorough market research and analysis to identify the most suitable
+                  projects for your projects. 
+                </p>
+              
+              </div>
+              
+              <div className='glass_container4 containerY containerX' data-aos='slide-up' data-aos-duration='2000'>
+                <h1 className='text-white p-6  text-xl'>
+                  Tailored Marketing Strategies
+                </h1>
+                <p className='text-lg text-gray-500 p-6 '>
+                  Our agency offers additional marketing services  to support your projetcs success beyond
+                  the listing itself. We help develop
+                </p>
+                <img src={img21} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
+              </div>
+
+
+            </div>
+
+
+         
+        </div>
+
+      </div>
+      {/* our_services */}
+      <div className='mb-[10rem] ml-14'>
+        <div className='grid p-6'>
+          <h1 className='text-white text3 lawn_color font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
+            Our Services
+          </h1>
+          <p className='text-lg text-gray-500 text-wrap text3_p ' data-aos='fade-up' data-aos-duration='2000'>
+            We provide a seamless,timeless, and customized experience <br /> that goes above and beyond to satisfy your needs <br />
+            while also exceeding your expectations.
+          </p>
+        </div>
+
+        {/* button */}
+        <div className=' p-6 join' data-aos='zoom-in' data-aos-duration='2000'>
+          <a className="btn" href="#">Join Now</a>
+        </div>
+
+        <div className='absolute float-right ml-[35rem] -mt-[28rem] img16'>
+          <img src={img16} alt="" className='w-[50rem] h-[40rem] object-contain img16X' data-aos='fade' data-aos-duration='2000' />
+        </div>
+
+        {/* images of tokens */}
+        <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
+        <div className='flex mt-12 gap-5 tokens'>
+
+          <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3000'>
+            <img src={img11} alt="" className='w-16 h-16 img11' />
+            <h1 className='text-gray-500  text-lg text-center '>
+              Shilling
+            </h1>
+          </div>
+          <div className=' glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='2500'>
+            <img src={img12} alt="" className='w-16 h-16 img12' />
+            <h1 className='text-gray-500  text-lg text-center '>
+              Top tier cex
+            </h1>
+          </div>
+          <div className=' glass_container5 grid place-content-center token3' data-aos='zoom-in' data-aos-duration='2000'>
+            <img src={img13} alt="" className='w-16 h-16 img13' />
+            <h1 className='text-gray-500  text-lg text-center '>
+              CMC listing
+            </h1>
+          </div>
+          <div className=' glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='1500'>
+            <img src={img14} alt="" className='w-16 h-16 img14' />
+            <h1 className='text-gray-500  text-lg text-center '>
+              Marketing
+            </h1>
+          </div>
+          <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
+            <img src={img15} alt="" className='w-16 h-16 img15' />
+            <h1 className='text-gray-500  text-lg text-center '>
+              Shilling
+            </h1>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+
+      {/* why_choose_us_ends */}
+
+      <div className='mt-44  '>
+
+        <h1 className='text-white text-wrap text-7xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
+          Members Accomplishment
+        </h1>
+        <h3 className=' lawn_color1  text-wrap text-2xl mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
+          Our Members Success Rate
+        </h3>
+
+        <div className='flex place-content-center gap-32 grid_rate'>
+          <div className='grid text-wrap text-center mt-20'>
+            <h1 className='text-9xl  jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              +120
+            </h1>
+            <h3 className=' lawn_color1 text-2xl rate_p' data-aos='slide-up' data-aos-duration='2000'>
+              Clients
+            </h3>
+          </div>
+          <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
+            <h1 className='text-9xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              +4200
+            </h1>
+            <h3 className=' lawn_color1 text-2xl  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+              Success
+            </h3>
+          </div>
+          <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
+            <h1 className='text-9xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              +20
+            </h1>
+            <h3 className=' lawn_color1 text-2xl  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+              Customers
+            </h3>
+          </div>
+
+        </div>
+
+        {/* watchword */}
+        <div className='grid place-content-center m-auto mt-32'>
+          <h1 className='text-white  text-center  lawn_color font-bold text-7xl float-left text-nowrap  jockey-one-regular watchword ' data-aos='fade' data-aos-duration='2000'>
+            Our Watchword
+          </h1>
+          <div className='flex gap-5 place-content-center percent_grid'>
+            <div className=' glass_container6 grid place-content-center mt-12 ' data-aos='zoom-in' data-aos-duration='2500'>
+              <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
+                99.9%
+              </h1>
+              <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
+                Credibility
+              </p>
+            </div>
+
+            <div className=' glass_container6 grid place-content-center mt-12' data-aos='zoom-in' data-aos-duration='2000'>
+              <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
+                100%
+              </h1>
+              <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
+                Excellence
+              </p>
+            </div>
+
+            <div className=' glass_container6 grid place-content-center mt-12' data-aos='zoom-in' data-aos-duration='1500'>
+              <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
+                100%
+              </h1>
+              <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
+                Transparency
+              </p>
+            </div>
+          </div>
+
+
+          <div className='glass_container7 grid place-content-center m-auto mt-16 '>
+
+            <div data-aos='fade' data-aos-duration='2000'>
+              <h1 className='jockey-one-regular text-6xl text-white text5'>
+                Our <span className='text-red-400  lawn_color1 text5'><i>vision</i> </span> is  to become a leading force in promoting and facilitating the adoption of cryptocurrencies
+                through effective listing strategies. We provide trust and security in the crypto industry.
+              </h1>
+              <div className='flex p-5 mt-5 '>
+                <img src={img17} alt="" className='rounded-full w-12 h-12 img17' />
+                <h1 className='jockey-one-regular text-2xl text-white mt-2 ml-4 text-center text6'>
+                  Josephine Ezekiel - <span className='text-red-400  lawn_color1 text6_p'> Founder </span>
+                </h1>
+              </div>
+
+            </div>
+          </div>
+
+
+  
+  
+
+
+
+          {/* ends */}
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    {/* ends */}
+  </div>
+
+
+
+
+
+
+
+
+
+)
+
+export default homepage

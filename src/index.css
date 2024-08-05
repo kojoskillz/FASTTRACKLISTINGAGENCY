@@ -1,0 +1,594 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+
+body{
+    background-color: black;
+
+}
+
+.home{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.67)),url(./assets/imghome.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.jockey-one-regular {
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  .btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid rgb(252, 70, 100);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+   }
+   
+   .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 70, 100);
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+   }
+   
+   .btn:hover::before {
+    transform: translateX(0);
+   }
+
+   .dot{
+    border: dotted 1px;
+   }
+
+   .lawn_color{
+    background:linear-gradient(to right,rgb(120, 120, 120),rgb(255, 255, 255),rgb(120, 120, 120));
+    color:linear-gradient();
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-webkit-background-clip: text;
+    -moz-webkit-text-fill-color: transparent;
+
+  }
+
+   .lawn_color1{
+    background:linear-gradient(to right,rgb(255, 40, 40),rgb(255, 161, 94) 100%);
+    color:linear-gradient();
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-webkit-background-clip: text;
+    -moz-webkit-text-fill-color: transparent;
+
+  }
+
+
+.sec0{
+    padding-bottom: 17rem;
+    --color: rgba(19, 19, 19, 0.177);
+    background-color: #000000;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+  }
+
+  .glass_containerX{
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+      /* From https://css.glass */
+background: rgba(22, 22, 22, 0.104);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+
+
+  }
+
+  .glow{
+    box-shadow: rgba(255, 255, 255, 0.705) 30px 0 240px 65px;
+    height: 60rem;
+    width: 40rem;
+  }
+
+  .fade_rule{
+    margin: 30px 0;
+    height: 1px;
+    width: 64rem;
+    border:  none;
+    background:-webkit-gradient(linear, 0 0,100% 0, from(transparent), to(transparent), color-stop(50%, #a4a4a4));
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.396);
+  
+  }  
+  
+
+
+.glass_container{
+    /* From https://css.glass */
+background: rgba(22, 22, 22, 0.104);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+height: 28rem;
+width: 20rem;
+
+}
+.glass_container3{
+    /* From https://css.glass */
+background: rgba(29, 29, 29, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+height: 25rem;
+width: 20rem;
+margin-top: -2.5rem;
+}
+
+.glass_container1{
+    /* From https://css.glass */
+background: rgba(29, 29, 29, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+height: 30rem;
+width: 20rem;
+}
+
+.glass_container4{
+    /* From https://css.glass */
+background: rgba(29, 29, 29, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+height: 24rem;
+width: 20rem;
+margin-top: -4.5rem;
+
+}
+
+.glass_container5{
+    /* From https://css.glass */
+background: rgba(29, 29, 29, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+height: 8rem;
+width: 8rem;
+}
+
+.glass_container6{
+    /* From https://css.glass */
+background: rgba(29, 29, 29, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.178);
+height: 12rem;
+width: 20rem;
+}
+
+.glass_container7{
+    /* From https://css.glass */
+background: rgba(60, 60, 60, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.171);
+height: 35rem;
+width: 70rem;
+padding: 5rem;
+}
+
+
+.tilt-in-fwd-tr {
+	-webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-8-3 0:22:35
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tilt-in-fwd-tr
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tilt-in-fwd-tr {
+    0% {
+      -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+              transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes tilt-in-fwd-tr {
+    0% {
+      -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+              transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+      opacity: 1;
+    }
+  }
+  
+
+  .slide-in-fwd-bl {
+	-webkit-animation: slide-in-fwd-bl 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-bl 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-8-3 0:24:13
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-fwd-bl
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-fwd-bl {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateY(800px) translateX(-1000px);
+              transform: translateZ(-1400px) translateY(800px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0) translateX(0);
+              transform: translateZ(0) translateY(0) translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-bl {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateY(800px) translateX(-1000px);
+              transform: translateZ(-1400px) translateY(800px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0) translateX(0);
+              transform: translateZ(0) translateY(0) translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+
+  /* media_queries */
+  @media screen and (max-width:720px) {
+    .glass_containerX{
+        display: none;
+       }
+
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        
+    }
+    
+
+       body,html{
+          scroll-behavior: smooth;
+          overflow-x: hidden;
+       }
+
+       .text1{
+        text-wrap: wrap;
+        font-size: 3.2rem;
+        padding: 60px;
+        padding-top: 10rem;
+       }
+
+       .text2{
+        text-wrap: wrap;
+        padding: 20px;
+        font-size: 25px;
+       }
+
+       .lawn_color1{
+        font-size: 5rem;
+       }
+
+       .choose{
+         margin-left: -3rem;
+         font-size: 3.5rem; 
+      }
+      .chooseX{
+        margin-top: -5rem;
+      }
+
+      .containerQ{
+        display: grid;
+        place-content: center;
+        margin: auto;
+        margin-top: 7rem;
+        margin-left: -46rem;
+      }
+
+      .containerY{
+        margin-left: -23rem;
+        margin-top: 32rem;
+        
+      }
+
+      .containerX{
+        margin-left: -23rem;
+        margin-top: 25rem;
+      
+      }
+
+      .fade_rule{
+        width: 350px;
+      }
+     
+      .text3{
+        margin-left: -4rem;
+        font-size: 60px;
+      }
+
+      .text3_p{
+        font-size: 22px;
+        margin-left: -4rem;
+      }
+
+      .img16{
+        margin-left: -5rem;
+        margin-top: -4rem;
+      }
+
+      .img16X{
+        width: 40rem;
+        height: 30rem;
+        
+      }
+
+      .join{
+        margin-top: 28rem;
+        margin-left: -3rem;
+        position: absolute;
+      }
+
+      .glow{
+        width: 1px;
+        height: 1px;
+      }
+    
+
+      .tokens{
+        margin-top: 35rem;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .img11{
+        margin: auto;
+        height: 3.4rem;
+        width: 4rem;
+      }
+
+      .token1{
+        margin-left: -3rem;
+        width: 7rem;
+        height: 6rem;
+        padding: 20px;
+      }
+
+
+      .img12{
+        height: 3rem;
+        width: 3rem;
+        margin: auto;
+      }
+
+      .token2{
+        margin-left: -3.8rem;
+        text-wrap: nowrap;
+        width: 7rem;
+        height: 6rem;
+        padding: 20px;
+      }
+
+      .img13{
+        margin: auto;
+        height: 2.8rem;
+        width: 3.2rem;
+        object-fit: contain;
+      }
+
+      .token3{
+        margin-left: -4.5rem;
+        text-wrap: nowrap;
+        width: 7rem;
+        height: 6rem;
+        padding: 20px;
+      }
+      .img14{
+        margin: auto;
+        height: 3.3rem;
+        width: 3.3rem;
+      }
+
+      .token4{
+        margin-top: -.8rem;
+        text-wrap: nowrap;
+        width: 7rem;
+        height: 6rem;
+        padding: 20px;
+      }
+
+      .img15{
+        margin: auto;
+        height: 3.4rem;
+        width: 4rem;
+      }
+
+      .token5{
+        margin-top: -.8rem;
+        width: 7rem;
+        height: 6rem;
+        padding: 20px;
+      }
+
+
+      .text4{
+        font-size: 30px;
+      }
+
+      .text4_p{
+        font-size: 20px;
+      }
+
+
+      .grid_rate{
+        display: grid;
+       place-content: center;
+      }
+
+      .rate{
+        font-size: 100px;
+      }
+
+      .rate_p{
+        font-size: 40px;
+        text-align: center;
+        display: grid;
+        place-content: center;
+      }
+
+      .watchword{
+        font-size: 50px;
+      }
+
+      .percent_grid{
+        display: grid;
+        place-content: center;
+        margin: auto;
+      }
+
+      .percent_grid_text{
+        margin: auto;
+        display: grid;
+        place-content: center;
+       font-size: 40px;
+       margin-left: 3rem; 
+
+      }
+
+      .percent_grid_p{
+        text-align: center;
+        display: grid;
+        place-content: center;
+       font-size: 40px;
+       margin-left: rem; 
+
+      }
+   
+      .text5{
+        text-wrap: wrap;
+        font-size: 33px;
+        padding: 10px;
+      }
+
+      .glass_container7{
+        width: 22rem;
+        padding: 10px;
+      }
+
+      .text6{
+        font-size: 20px;
+        margin-left: -.2rem;
+      }
+
+    .text6_p{
+        font-size: 20px;
+      }
+  
+    .img17{
+      width: 4.5rem;  
+      height: 4.5rem;  
+      }
+
+     .footer_text{
+      font-size:30px;
+     }
+
+     .footer{
+      margin-top: -18rem;
+      margin-left: -1rem;
+      text-wrap: wrap;
+     }
+
+     .text7{
+      font-size: 17px;
+     }
+     
+     .text8{
+      font-size: 15px;
+     }
+
+     .copy{
+      padding: 12px
+     }
+
+     .rate_up{
+      margin-top: -2rem; 
+     }
+
+    }
+  
