@@ -85,7 +85,19 @@ body{
     -webkit-text-fill-color: transparent;
     -moz-webkit-background-clip: text;
     -moz-webkit-text-fill-color: transparent;
+    animation: animateMe 1s ease-in-out infinite alternate;
 
+  }
+
+
+  @keyframes animateMe{
+    from{
+      text-shadow: 0 0 20px rgb(255, 40, 40),rgb(255, 161, 94);
+    }
+    to{
+      text-shadow: 0 0 20px rgba(255, 24, 24, 0.399),
+                   0 0 10px   rgba(255, 161, 94, 0.271);
+    }
   }
 
 
@@ -651,6 +663,28 @@ border: 1px solid rgba(255, 255, 255, 0.171);
     
     }
 
+    .fastrack{
+      font-size: 35px;
+      margin-left: 20px;
+      font-weight: bolder;
+      margin-top: 17px;
+    }
+
+    .join{
+     margin-left: 26.6em;
+     margin-top: -2.8em;
+     width: 3.8em;
+    }
+
+    .joinX{
+      position: fixed;
+    }
+
+    .btn_text{
+       margin: auto;
+       display: grid;
+       place-content: center;
+    }
     }
   
 
