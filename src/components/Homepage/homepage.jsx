@@ -164,7 +164,7 @@ const homepage = () => (
         {/* button */}
         <div className=' p-6 join' data-aos='zoom-in' data-aos-duration='2000'>
           <button>
-          <a className="btn" href="#">Join Now</a>
+            <a className="" href="#">Join Now</a>
           </button>
           
         </div>
