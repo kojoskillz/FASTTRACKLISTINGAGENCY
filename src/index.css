@@ -671,14 +671,14 @@ border: 1px solid rgba(255, 255, 255, 0.171);
     }
 
     .join{
-     margin-left: 26.6em;
+     margin-left: 30.6em;
      margin-top: -2.8em;
      width: 3.8em;
     }
 
-    .joinX{
+    /* .joinX{
       position: fixed;
-    }
+    } */
 
     .btn_text{
        margin: auto;
