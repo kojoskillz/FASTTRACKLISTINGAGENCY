@@ -21,13 +21,13 @@ const navbar = () => {
             
           </ul>
        {/* join_button */}
-          <div className='joinX'>
+          {/* <div className='joinX'>
           <button className='ml-10 join'>
               <a className="btn_text" href="#">Join Now</a>
           </button>
        
           </div>
-          
+           */}
        
         </nav>
 
