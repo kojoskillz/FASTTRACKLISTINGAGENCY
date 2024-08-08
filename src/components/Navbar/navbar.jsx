@@ -6,10 +6,10 @@ const navbar = () => {
     <div>
       
         <nav className='glass_containerX pb-5 flex jockey-one-regular'>
-        <img src={logo} alt="" className='logo absolute -mt-[3rem] -ml-5 w-44 h-44'  />
+        <img src={logo} alt="" className='logo absolute -mt-[1.7rem] -ml-5 w-32 h-32'  />
         <div>
-          <h1 className='font-extrabold text-white mt-1 text-5xl fastrack  jockey-one-regular ml-24'>
-            <span className=' '>Fast</span>track
+          <h1 className=' text-white mt-2 text-4xl fasttrack   ml-24'>
+            <span className='font-extrabold '>Fasttrack</span>
           </h1>
         </div>
         <ul className='flex gap-5 text-white m-auto ml-40 flex place-content-center ul_list font-semibold pt-4 '>
@@ -20,18 +20,11 @@ const navbar = () => {
              <li><a href="#Contact Us" className='cursor-pointer hover:text-red-600'>Contact Us</a></li>
             
           </ul>
-       {/* join_button */}
-          {/* <div className='joinX'>
-          <button className='ml-10 join'>
-              <a className="btn_text" href="#">Join Now</a>
-          </button>
-       
-          </div>
-           */}
+    
        
         </nav>
 
-        {/* responsive navbar */}
+      
 
 
     </div>
