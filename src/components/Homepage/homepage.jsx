@@ -29,8 +29,8 @@ const homepage = () => (
     <h1 className='font-extrabold text-red-500 text-8xl pt-20 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
       <span className='lawn_color1' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>   <span className='text-white font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>Ready To Elevate Your Cryptocurrency project to new heights?</span>
     </h1>
-    <p className='text-slate-50 font-semibold -mt-10  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
-      Launch your crypto project to new heights with us! and get listed on top exchanges,boosting your visibility and credibility.
+    <p className='text-slate-50 font-semibold -mt-4  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
+      Launch your crypto project to new heights with us! and get listed on top exchanges,<br /> boosting your visibility and credibility.
     </p>
 
     <div className='m-auto flex gap-7 place-content-center mt-8 ' data-aos='zoom-in' data-aos-duration='4000'>
@@ -48,8 +48,8 @@ const homepage = () => (
       <div className='flex mt-10 place-content-center boost'>
              <img src={img17} alt="" className='h-14 mt-3 w-14  flex rounded-full place-content-center' />
           <div className='grid'>
-             <h3 className='text-white/95 text-lg font-bold text-wrap p-1'> "They are the best listing agency I know of" </h3>
-             <h5 className='text-gray-300  text-sm font-light text-wrap '> "Joe Winston,CEO Nexux Inc. " </h5>
+             <h3 className='text-white/95 text-lg font-bold text-wrap p-1 textX'> "They are the best listing agency I know of" </h3>
+             <h5 className='text-gray-300  text-sm font-light text-wrap ml-4 -mt-4 h5_text '> "Joe Winston,CEO Neptune Inc. " </h5>
          </div>
       
     </div>
@@ -62,7 +62,7 @@ const homepage = () => (
     {/* section0 */}
     <div className='-mt-[18rem] bg-black sec0 '>
       <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
-        Partnered with leading companies such as...
+         Partnered with leading companies such as...
       </h1>
       {/* partners_images */}
 
