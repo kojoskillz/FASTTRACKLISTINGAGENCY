@@ -72,7 +72,7 @@ body{
    .lawn_color1{
     text-align: center;
     font-weight: bolder;
-    background:linear-gradient(to right,rgb(255, 40, 40),rgb(217, 15, 35));
+    background:linear-gradient(to right,rgb(255, 75, 75),rgb(255, 43, 64));
     color:linear-gradient();
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -83,7 +83,7 @@ body{
   }
 
 
-  @keyframes animateMe{
+  /* @keyframes animateMe{
     from{
       text-shadow: 0 0 20px rgb(255, 40, 40),rgb(255, 161, 94);
     }
@@ -91,7 +91,7 @@ body{
       text-shadow: 0 0 20px rgba(255, 24, 24, 0.399),
                    0 0 10px   rgba(255, 161, 94, 0.271);
     }
-  }
+  } */
 
 
 .sec0{
@@ -768,7 +768,8 @@ border: 1px solid rgba(255, 255, 255, 0.171);
        }
 
        .lawn_color1{
-        font-size: 4.5rem;
+        text-wrap: wrap;
+        font-size: 5rem;
       }
 
        .choose{
@@ -1039,7 +1040,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
     }
 
     .fasttrack{
-      font-size: 30px;
+      font-size: 26px;
       margin-left: 75px;
       font-weight: bolder;
       margin-top: 17px;
