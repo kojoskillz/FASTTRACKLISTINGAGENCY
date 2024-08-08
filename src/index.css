@@ -670,6 +670,16 @@ border: 1px solid rgba(255, 255, 255, 0.171);
       margin-top: 17px;
     }
 
+    .textX{
+      display: grid;
+      place-content: center;
+    }
+
+    .h5_text{
+      padding-top: 1rem;
+      margin-left: -.0005rem;
+    }
+
     /* .join{
      margin-left: 30.6em;
      margin-top: -2.8em;
@@ -680,11 +690,11 @@ border: 1px solid rgba(255, 255, 255, 0.171);
       position: fixed;
     } */
 
-    .btn_text{
+    /* .btn_text{
        margin: auto;
        display: grid;
        place-content: center;
-    }
+    } */
     }
   
 
