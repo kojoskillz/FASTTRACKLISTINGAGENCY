@@ -257,33 +257,41 @@ const homepage = () => (
         <h1 className='text-white text-wrap text-7xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
           Members Accomplishment
         </h1>
-        <h3 className=' lawn_color1  text-wrap text-2xl mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
-          Our Members Success Rate
+        <h3 className=' lawn_color1  text-wrap text-lg mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
+          History is boring! but  numbers aren't
         </h3>
 
         <div className='flex place-content-center gap-32 grid_rate'>
           <div className='grid text-wrap text-center mt-20'>
-            <h1 className='text-9xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
-              +120
+            <h1 className='text-8xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              +200
             </h1>
-            <h3 className=' lawn_color1 text-2xl rate_p' data-aos='slide-up' data-aos-duration='2000'>
-              Clients
+            <h3 className=' lawn_color1 text-lg rate_p' data-aos='slide-up' data-aos-duration='2000'>
+             Projects Completed
             </h3>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
-            <h1 className='text-9xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
-              +4200
+            <h1 className='text-8xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              +300
             </h1>
-            <h3 className=' lawn_color1 text-2xl  rate_p' data-aos='slide-up' data-aos-duration='2000'>
-              Success
+            <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+            Projects in Progress
             </h3>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
-            <h1 className='text-9xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              +150
+            </h1>
+            <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+               Happy Custmers            
+            </h3>
+          </div>
+          <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
+            <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               +20
             </h1>
-            <h3 className=' lawn_color1 text-2xl  rate_p' data-aos='slide-up' data-aos-duration='2000'>
-              Customers
+            <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+              Awards Project
             </h3>
           </div>
 
