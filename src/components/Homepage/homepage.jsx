@@ -25,9 +25,12 @@ import img21 from './images_home/crypt2.png';
 
 const homepage = () => (
   // mainpage
-  <div className=' pb-[10rem] home'>
+  <div className=' pb-[10rem] sec0 '>
     <h1 className='font-extrabold text-red-500 text-8xl pt-20 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
-      <span className='lawn_color1' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>   <span className='text-white font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>Ready To Elevate Your Cryptocurrency project to new heights?</span>
+      <span className='lawn_color1 text-9xl' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>
+         <span className='text-white  text-8xl font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>
+                Ready To Elevate Your  Cryptocurrency  project to new heights?
+        </span>
     </h1>
     <p className='text-slate-50 font-semibold -mt-4  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
       Launch your crypto project to new heights with us! and get listed on top exchanges,<br /> boosting your visibility and credibility.
@@ -84,32 +87,62 @@ const homepage = () => (
 
 
       {/* why_choose_us */}
-      <div className='flex jockey-one-regular -mt-32 mb-2 p-20 '>
+      <div className='grid jockey-one-regular -mt-40   mb-2 p-20 '>
         {/* left_float */}
-        <h1 className='text-white  lawn_color font-bold text-7xl chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
+        <h1 className='text-white  lawn_color font-bold text-8xl  chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
         </h1>
         
+        {/* choose2 */}
+        <div className='grid choose2 absolute mt-[16rem] gap-11  '>
+               <div className='flex'>
+                    <img src="" alt="" />
+                    <h1 className='text-white jockey-one-regular text-lg '>
+                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
+                      </h1>
+               </div>
+               <div className='flex'>
+                    <img src="" alt="" />
+                    <h1 className='text-white jockey-one-regular text-lg '>
+                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
+                      </h1>
+               </div>
+               <div className='flex'>
+                    <img src="" alt="" />
+                    <h1 className='text-white jockey-one-regular text-lg '>
+                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
+                      </h1>
+               </div>
+               <div className='flex'>
+                    <img src="" alt="" />
+                    <h1 className='text-white jockey-one-regular text-lg '>
+                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
+                      </h1>
+               </div>
+                         
+             
+        </div>
+
         {/* rigth_float */}
-        <div className='float-right  ml-[26rem] '>
+        <div className='float-right  ml-[56rem] '>
              
        
 
             {/* glass_container */}
-            <div className=' grid grid-cols-2 gap-y-20 gap-x-2 -ml-60 containerQ' data-aos='slide-up' data-aos-duration='2000'>
+            <div className=' grid grid-cols-2 gap-y-20 gap-x-[4rem] -ml-[26rem] containerQ' data-aos='slide-up' data-aos-duration='2000'>
               <div className='glass_container1'>
-                <h1 className='text-white  p-6  text-xl'>
+                <h1 className='text-white font-bold  p-6  text-xl'>
                   Expertise & Experience
                 </h1>
+                <img src={img18} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
                 <p className='text-lg text-gray-500 p-6 '>
                   Our agency specialises in the process of getting cryptocurrencies listed on exchanges.We possees in-depth
                   knowledge of listing requirements,documentations and best practices.
                 </p>
-                <img src={img18} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
               </div>
 
               <div className='glass_container containerY' data-aos='slide-up' data-aos-duration='2000'>
-                <h1 className='text-white p-6  text-xl'>
+                <h1 className='text-white p-6 font-bold text-xl'>
                   Industry Connection
                 </h1>
                 <img src={img19} alt="" className=' m-auto -mt-8    w-[5rem] h-[8rem] object-contain '/>
@@ -119,7 +152,7 @@ const homepage = () => (
                 </p>
               </div>
               <div className='glass_container3' data-aos='slide-up' data-aos-duration='2000'>
-                <h1 className='text-white p-6  text-xl'>
+                <h1 className='text-white p-6 font-bold  text-xl'>
                   Market Research & Analysis
                 </h1>
                 <img src={img20} alt="" className=' m-auto -mt-2   w-[12rem] h-[12rem] object-contain '/>
@@ -131,14 +164,15 @@ const homepage = () => (
               </div>
               
               <div className='glass_container4 containerY containerX' data-aos='slide-up' data-aos-duration='2000'>
-                <h1 className='text-white p-6  text-xl'>
+                <h1 className='text-white p-6 font-bold  text-xl'>
                   Tailored Marketing Strategies
                 </h1>
+                <img src={img21} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
                 <p className='text-lg text-gray-500 p-6 '>
                   Our agency offers additional marketing services  to support your projects success beyond
                   the listing itself. We help develop
                 </p>
-                <img src={img21} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
+               
               </div>
 
 
