@@ -1068,7 +1068,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
 
 
     /* landscapeview */
-    @media screen and (min-width:420px) and (max-width:760px) and (orientation:landscape) {
+    @media screen and  (max-width:1080px) and (orientation:landscape) {
      body,html{
       overflow-x: hidden;
      }
