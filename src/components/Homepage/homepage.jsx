@@ -20,6 +20,7 @@ import img19 from './images_home/bitcoin.png';
 import img20 from './images_home/crypto.png';
 import img21 from './images_home/crypt2.png';
 import logo from './images_home/logo.png';
+import mark from './images_home/checkmark.png';
  
 
 
@@ -95,27 +96,27 @@ const homepage = () => (
         </h1>
         
         {/* choose2 */}
-        <div className='grid choose2 absolute mt-[16rem] gap-11  '>
-               <div className='flex'>
-                    <img src="" alt="" />
+        <div className='grid choose2 absolute mt-[16rem] gap-11'>
+               <div className='flex gap-5 -ml-5 place-content-center'>
+                    <img src={mark} alt="" className='w-12 h-12' />
                     <h1 className='text-white jockey-one-regular text-lg '>
                           Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
                       </h1>
                </div>
-               <div className='flex'>
-                    <img src="" alt="" />
+               <div className='flex gap-5 -ml-5 place-content-center'>
+               <img src={mark} alt="" className='w-12 h-12' />
                     <h1 className='text-white jockey-one-regular text-lg '>
                           Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
                       </h1>
                </div>
-               <div className='flex'>
-                    <img src="" alt="" />
+               <div className='flex gap-5 -ml-5 place-content-center'>
+                    <img src={mark} alt="" className='w-12 h-12' />
                     <h1 className='text-white jockey-one-regular text-lg '>
                           Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
                       </h1>
                </div>
-               <div className='flex'>
-                    <img src="" alt="" />
+               <div className='flex gap-5 -ml-5 place-content-center'>
+               <img src={mark} alt="" className='w-12 h-12' />
                     <h1 className='text-white jockey-one-regular text-lg '>
                           Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
                       </h1>
