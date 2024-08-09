@@ -750,7 +750,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
         display: block;
         height: 8rem;
         margin-left: -3.5rem;
-        margin-top: 2rem;
+        margin-top: -2rem;
        }
 
 
@@ -983,6 +983,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
       }
    
       .text5{
+        margin-top: 6rem;
         text-wrap: wrap;
         font-size: 33px;
         padding: 10px;
@@ -996,7 +997,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
       .text6{
         font-size: 35px;
         margin-left: -1.5rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
       }
 
     .text6_p{
