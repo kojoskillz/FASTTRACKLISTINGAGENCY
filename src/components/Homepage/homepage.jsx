@@ -19,6 +19,7 @@ import img18 from './images_home/robothand.png';
 import img19 from './images_home/bitcoin.png';
 import img20 from './images_home/crypto.png';
 import img21 from './images_home/crypt2.png';
+import logo from './images_home/logo.png';
  
 
 
@@ -340,8 +341,8 @@ const homepage = () => (
                 through effective listing strategies. We provide trust and security in the crypto industry.
               </h1>
               <div className='flex p-5 mt-5 '>
-                <img src={img17} alt="" className='rounded-full w-12 h-12 img17' />
-                <h1 className='jockey-one-regular  lawn_color1  mt-2 ml-4 text-center text6'>
+                <img src={logo} alt="" className='rounded-full w-32 h-32 logo1' />
+                <h1 className='jockey-one-regular text-white font-bold text-3xl   mt-10 -ml-4 text-center text6'>
                   Fasttrack 
                 </h1>
               </div>
