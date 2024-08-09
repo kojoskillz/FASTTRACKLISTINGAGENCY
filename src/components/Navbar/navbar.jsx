@@ -12,7 +12,7 @@ const navbar = () => {
             <span className='font-extrabold '>Fasttrack</span>
           </h1>
         </div>
-        <ul className='flex gap-5 text-white m-auto ml-40 flex place-content-center ul_list font-semibold pt-4 '>
+        <ul className='flex gap-5 text-white m-auto ml-56 jockey-one-regular  place-content-center ul_list font-semibold pt-4 '>
             
              <li><a href="#Home" className='cursor-pointer hover:text-red-600'>Home</a></li>
              <li><a href="#About Us" className='cursor-pointer hover:text-red-600'>About Us</a></li>
