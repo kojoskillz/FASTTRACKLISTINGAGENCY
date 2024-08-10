@@ -7,7 +7,7 @@ import img4 from './images_home/lbank.png';
 import img5 from './images_home/mexc-xep.png';
 import img6 from './images_home/okx-review.png';
 import img7 from './images_home/probit.png';
-import img10 from './images_home/img10.webp';
+// import img10 from './images_home/img10.webp';
 import img11 from './images_home/shilling (3).png';
 import img12 from './images_home/seo.png';
 import img13 from './images_home/checklist.png';
@@ -43,7 +43,7 @@ const homepage = () => (
       Launch your crypto project to new heights with us! and get listed on top exchanges,<br /> boosting your visibility and credibility.
     </p>
 
-    <div className='m-auto flex gap-7 place-content-center mt-8 ' data-aos='zoom-in' data-aos-duration='4000'>
+    <div className='m-auto flex gap-7 place-content-center mt-8 ' >
     <button>
        <a className="btn" href="#">Join Now</a>
     </button>
@@ -66,7 +66,7 @@ const homepage = () => (
     
 
     {/* horizontal_line */}
-    <div className='grid place-content-center m-auto rounded-full mt-20'>
+    <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
       <div className='fade_rule'></div>
     </div>
        {/* binance widget */}
@@ -75,13 +75,16 @@ const homepage = () => (
        {/* binance widget ends */}
 
        {/* widget2 */}
-<div className="btcwdgt-chart m-auto grid place-content-center" bw-cash="true" bw-noshadow="true"></div>
+       <div>
+            <div className="btcwdgt-chart " bw-cash="true" bw-noshadow="true"></div>
+       </div>
+
 {/* widget_ends */}
 
     {/* <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' /> */}
  
     {/* section0 */}
-    <div className='mt-[8rem] bg-black sec0 '>
+    <div className='mt-[1rem] bg-black sec0 '>
       <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
          Partnered with leading companies such as...
       </h1>
@@ -144,9 +147,9 @@ const homepage = () => (
               Top tier cex
             </h1>
           </div>
-          <div className=' glass_container5 grid place-content-center token3' data-aos='zoom-in' data-aos-duration='2000'>
+          <div className=' glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='2000'>
             <img src={img13} alt="" className='w-16 h-16 img13' />
-            <h1 className='text-gray-500  text-lg text-center '>
+            <h1 className='text-gray-500  text-lg text-center  '>
               CMC listing
             </h1>
           </div>
@@ -158,7 +161,7 @@ const homepage = () => (
           </div>
           <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
             <img src={img15} alt="" className='w-16 h-16 img15' />
-            <h1 className='text-gray-500  text-lg text-center '>
+            <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
               CG Listing
             </h1>
           </div>
