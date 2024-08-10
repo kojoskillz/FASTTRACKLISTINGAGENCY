@@ -25,6 +25,11 @@ import mark from './images_home/checkmark.png';
 
 
 
+
+
+
+
+
 const homepage = () => (
   // mainpage
   <div className=' pb-[10rem] sec0 ' id='Home'>
@@ -58,14 +63,25 @@ const homepage = () => (
          </div>
       
     </div>
+    
+
     {/* horizontal_line */}
     <div className='grid place-content-center m-auto rounded-full mt-20'>
       <div className='fade_rule'></div>
     </div>
-    <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' />
+       {/* binance widget */}
+       <div className="binance-widget-marquee" data-cmc-ids="1,1027,1839,5426,3408,52,74,5805,3890,7083" data-theme="dark" data-transparent="false" data-powered-by="Powered by" data-disclaimer="Disclaimer" >
+      </div> 
+       {/* binance widget ends */}
 
+       {/* widget2 */}
+<div className="btcwdgt-chart m-auto grid place-content-center" bw-cash="true" bw-noshadow="true"></div>
+{/* widget_ends */}
+
+    {/* <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' /> */}
+ 
     {/* section0 */}
-    <div className='-mt-[18rem] bg-black sec0 '>
+    <div className='mt-[8rem] bg-black sec0 '>
       <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
          Partnered with leading companies such as...
       </h1>
