@@ -7,7 +7,7 @@ import img4 from './images_home/lbank.png';
 import img5 from './images_home/mexc-xep.png';
 import img6 from './images_home/okx-review.png';
 import img7 from './images_home/probit.png';
-// import img10 from './images_home/img10.webp';
+import img10 from './images_home/img10.webp';
 import img11 from './images_home/shilling (3).png';
 import img12 from './images_home/seo.png';
 import img13 from './images_home/checklist.png';
@@ -74,17 +74,12 @@ const homepage = () => (
       </div> 
        {/* binance widget ends */}
 
-       {/* widget2 */}
-       <div>
-            <div className="btcwdgt-chart " bw-cash="true" bw-noshadow="true"></div>
-       </div>
 
-{/* widget_ends */}
 
-    {/* <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' /> */}
+    <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' />
  
     {/* section0 */}
-    <div className='mt-[1rem] bg-black sec0 '>
+    <div className='-mt-[16rem] bg-black sec0 '>
       <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
          Partnered with leading companies such as...
       </h1>
@@ -108,7 +103,7 @@ const homepage = () => (
 
 
       {/* our_services */}
-      <div className='mb-[10rem] ml-14 -mt-36' id='Services'>
+      <div className='mb-[10rem] ml-14 -mt-16' id='Services'>
         <div className='grid p-6'>
           <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
