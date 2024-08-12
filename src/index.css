@@ -234,6 +234,7 @@ padding: 5rem;
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
   row-gap: 2rem;
+  margin-left: -32rem;
 }
 
 
