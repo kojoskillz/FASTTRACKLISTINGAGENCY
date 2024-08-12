@@ -145,46 +145,48 @@ box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.178);     
-height: 24rem;
+height: 26rem;
 width: 25rem;
+/* margin-left: -3rem; */
 
 }
 .glass_container3{
-    /* From https://css.glass */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
-border-radius: 16px;
-box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.178);
-height: 24rem;
-width: 25rem;
-margin-top: -2.5rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.178);     
+  height: 26rem;
+  width: 25rem;
+  /* margin-left: -7rem; */
+  /* margin-top: -4rem; */
 }
 
 .glass_container1{
-    /* From https://css.glass */
- background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
-border-radius: 16px;
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(141, 141, 141, 0.178);
-box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
-height: 26rem;
-width: 25rem;
-}
-
-.glass_container4{
-    /* From https://css.glass */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
 border-radius: 16px;
 box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.178);
-height: 24rem;
+border: 1px solid rgba(255, 255, 255, 0.178);     
+height: 26rem;
 width: 25rem;
-margin-top: -4.5rem;
+/* margin-left: -7rem; */
+
+}
+
+.glass_container4{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.178);     
+  height: 26rem;
+  width: 25rem;
+  /* margin-left: -3rem;
+  margin-top: -4rem; */
 
 }
 
@@ -198,6 +200,7 @@ backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.178);
 height: 8rem;
 width: 8rem;
+
 }
 
 .glass_container6{
@@ -210,6 +213,7 @@ backdrop-filter: blur(15px);
 border: 1px solid rgba(255, 255, 255, 0.178);
 height: 12rem;
 width: 20rem;
+
 }
 
 .glass_container7{
@@ -223,6 +227,13 @@ border: 1px solid rgba(255, 255, 255, 0.171);
 height: 35rem;
 width: 70rem;
 padding: 5rem;
+}
+
+.containerQ{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
 
 
@@ -1183,9 +1194,5 @@ div .btcwdgt{
         font-size: 80px;
       }
 
-      
     }
 
-
-
-    
