@@ -751,6 +751,8 @@ div .btcwdgt{
           display: grid;
           place-content: center;
           margin: auto;
+          justify-content: center;
+          align-items: center;
       }
 
        .ul_list{
@@ -814,13 +816,16 @@ div .btcwdgt{
         margin: auto;
         margin-top: 10rem;
         margin-left: -65rem;
+        justify-content: center;
+        align-items: center;
       }
 
       .containerY{
         width: 20rem;
         height: 28rem;
-        margin-left: -29rem;
+        margin-left: -27.5rem;
         margin-top:62rem;
+        margin-bottom:2rem;
         
       }
 
@@ -829,8 +834,8 @@ div .btcwdgt{
       }
 
       .containerX{
-        margin-left: -29rem;
-        margin-top: 29rem;
+        margin-left: -27.5rem;
+        margin-top: 28rem;
       
       }
 
@@ -1127,7 +1132,7 @@ div .btcwdgt{
       .containerQ{
         margin-top: 23rem;
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         place-content: center;
         margin-left: -57.5rem;
       }
