@@ -45,7 +45,7 @@ const homepage = () => (
 
     <div className='m-auto flex gap-7 place-content-center mt-8 ' >
     <button>
-       <a className="btn" href="#">Join Now</a>
+       <a className="btn" href="https://t.me/fasttracklistingz">Join Now</a>
     </button>
       
     <div className='bg-transparent rounded-lg b w-32 text-center border-gray-400 glass_containerQ text-white p-2 '>
@@ -117,7 +117,7 @@ const homepage = () => (
         {/* button */}
         <div className=' p-6 join' data-aos='zoom-in' data-aos-duration='2000'>
           <button className='buttonY'>
-            <a className="" href="#">Join Now</a>
+            <a className="" href="https://t.me/fasttracklistingz">Join Now</a>
           </button>
           
         </div>
