@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import X from './X.png';
+import telegram from './telegram.png';
+
 
 const footer = () => {
   return (
@@ -28,8 +31,21 @@ const footer = () => {
                         Call Us:<b>+234 8888888</b> 
                         </p> */}
                         <p className='text-white jockey-one-regular'>
-                            FastTracklistingagency121@gmail.com
+                           Email:FastTracklistingagency6@gmail.com
                         </p>
+                </div>
+
+                {/* socials */}
+                <div className='grid mt-10'>
+                    <span className='h-8 w-1 bg-red-600 absolute '></span>
+                        <h1 className='text-white font-bold text-xl ml-5 jockey-one-regular'>
+                            OUR SOCIALS
+                        </h1>
+                        <div className='flex w-16 mt-4 gap-3'>
+                               <a href="https://x.com/FastTrackAgency"><img src={X} alt="" /></a>
+                               <a href="https://t.me/fasttracklistingz"><img src={telegram} alt=""/></a>
+                        </div>
+                        
                 </div>
              
             </div>
@@ -56,6 +72,8 @@ const footer = () => {
          <h1 className="text-gray-400 text-wrap text-center text-sm mt-5 copy jockey-one-regular">
             Copyright &copy; 2024 Fastracklistingagency. All rights reserved.
          </h1>
+
+         
     </div>
   )
 }
