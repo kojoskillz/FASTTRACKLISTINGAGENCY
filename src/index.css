@@ -136,6 +136,26 @@ border: 1px solid rgba(255, 255, 255, 0.178);
   }  
   
 
+  .choose2{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .choose_glass{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
+    border-radius: 45px;
+    box-shadow: 0 0 20px rgba(105, 105, 105, 0.115);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.127);     
+    height: 50rem;
+    padding: 3rem;
+    max-width: fit-content;
+  }
+
+
 
 .glass_container{
     /* From https://css.glass */
@@ -386,6 +406,30 @@ div .btcwdgt{
           margin: auto;
       }
 
+      .choose_glass{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
+        border-radius: 45px;
+        box-shadow: 0 0 20px rgba(105, 105, 105, 0.115);
+        backdrop-filter: blur(45px);
+        -webkit-backdrop-filter: blur(50px);
+        border: 1px solid rgba(255, 255, 255, 0.127);     
+        height: 125rem;
+        max-width: fit-content;
+        margin: auto;
+        display: grid;
+        place-content: center;
+        margin-top: 90rem;
+        display: grid;
+      
+      }
+
+      .choose_glass{
+        width: 22rem;
+        padding: 10px;
+        display: grid;
+        place-content: center;
+        margin: auto;
+    }
 
 
        .ul_list{
@@ -424,6 +468,7 @@ div .btcwdgt{
       .chooseX{
         margin-top: -5rem;
       }
+
 
       .containerQ{
         display: grid;
@@ -807,15 +852,22 @@ div .btcwdgt{
       }
 
       .choose2{
-        margin-top: 7rem;
+        margin-top: 5rem;
+        font-size: 18px;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr;
+        text-wrap: wrap;
       }
+
+   
 
 
       .containerQ{
         display: grid;
         place-content: center;
         margin: auto;
-        margin-top: 10rem;
+        margin-top: 95rem;
         margin-left: -65rem;
         justify-content: center;
         align-items: center;
@@ -1125,18 +1177,19 @@ div .btcwdgt{
        }
 
        .choose2{
+        margin-top: 30rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:  1fr;
         place-content: center;
        }
 
-      .containerQ{
+      /* .containerQ{
         margin-top: 23rem;
         display: grid;
         grid-template-columns: 1fr;
         place-content: center;
         margin-left: -57.5rem;
-      }
+      } */
 
       .glass_container1,.glass_container3,.glass_container4,.glass_container{
         width: 40rem;
