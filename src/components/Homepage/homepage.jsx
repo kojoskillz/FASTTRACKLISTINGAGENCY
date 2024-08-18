@@ -24,12 +24,6 @@ import mark from './images_home/checkmark.png';
  
 
 
-
-
-
-
-
-
 const homepage = () => (
   // mainpage
   <div className=' pb-[10rem] sec0 ' id='Home'>
@@ -108,9 +102,10 @@ const homepage = () => (
           <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
           </h1>
-          <p className='text-lg text-gray-500 text-wrap pt-5 text3_p ' data-aos='fade-up' data-aos-duration='2000'>
-            We provide a seamless,timeless, and customized experience <br /> that goes above and beyond to satisfy your needs <br />
-            while also exceeding your expectations.
+          <p className='text-xl text-gray-500 text-wrap pt-5 text3_p ' data-aos='fade-up' data-aos-duration='2000'>
+              At Fast-Track, we specialize in fast and effective token listings on CoinMarketCap, <br /> CoinGecko, and top centralized exchanges. We offer strategic consulting,<br /> tailored marketing, and ongoing support to ensure your project gets the attention it deserves.
+              <br /> With transparent pricing and a seamless process, we make your success our priority. <br />
+               Let's take your crypto project to the next level.
           </p>
         </div>
 
@@ -168,47 +163,91 @@ const homepage = () => (
 
 
       {/* why_choose_us */}
-      <div className='grid jockey-one-regular -mt-10   mb-2 p-20 '>
+      <div className='grid jockey-one-regular place-content-center -mt-10 m-auto  mb-2 p-20 '>
         {/* left_float */}
         <h1 className='text-white  lawn_color font-bold text-8xl  chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
         </h1>
         
         {/* choose2 */}
-        <div className='grid choose2 absolute mt-[16rem] -ml-10 gap-11'>
-               <div className='flex gap-5 -ml-5 place-content-center'>
+        <div className='grid choose2  choose_glass m-auto place-content-center  mt-[5rem] gap-11'>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
                     <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-white jockey-one-regular text-lg '>
-                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
-                      </h1>
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                       <b className='text-white text-lg '>Industry Expertise: </b> 
+                      Our team is comprised of seasoned professionals with extensive experience in the cryptocurrency space. 
+                      We understand the intricacies of token listings and have a proven track record of successful placements 
+                      on CoinMarketCap, CoinGecko, and leading centralized exchanges.
+                    </h1>
                </div>
-               <div className='flex gap-5 -ml-5 place-content-center'>
-               <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-white jockey-one-regular text-lg '>
-                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
-                      </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center'>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
                     <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-white jockey-one-regular text-lg '>
-                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
-                      </h1>
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                        <b className='text-white text-lg'>  Strategic Partnerships: </b>
+                        We’ve built strong relationships with major platforms and exchanges. This enables us to streamline the listing process, 
+                        ensuring your token gains visibility on the most influential platforms in the crypto world.
+                    </h1>
                </div>
-               <div className='flex gap-5 -ml-5 place-content-center'>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
+                    <img src={mark} alt="" className='w-12 h-12' />
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                        <b className='text-white text-lg'> Comprehensive Services: </b>
+                        We offer a full suite of services that go beyond just listing your token. From strategic advice and compliance guidance to
+                         marketing and community building, we support your project at every stage to maximize its potential.
+                    </h1>
+               </div>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
                <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-white jockey-one-regular text-lg '>
-                          Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit Lorem ipsum 
-                      </h1>
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                    <b className='text-white text-lg'> Fast and Efficient: </b>
+                    Time is critical in the fast-paced world of cryptocurrency. Our efficient processes and insider knowledge allow us to expedite the listing process,
+                     getting your token to market quickly without sacrificing quality or compliance.
+
+                    </h1>
+               </div>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
+               <img src={mark} alt="" className='w-12 h-12' />
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                       <b className='text-white text-lg '> Transparent Pricing: </b> 
+                        We believe in transparency. Our pricing models are straightforward, with no hidden fees. You’ll know exactly what to expect,
+                        allowing you to plan and budget effectively.
+                    </h1>
+               </div>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
+               <img src={mark} alt="" className='w-12 h-12' />
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                    <b className='text-white text-lg'>Customized Solutions: </b>
+                    We recognize that every project is unique. Our team works closely with you to tailor our services to meet your specific needs, ensuring that 
+                    your token receives the attention and strategy it deserves.
+
+                    </h1>
+               </div>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
+               <img src={mark} alt="" className='w-12 h-12' />
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                   <b className='text-white text-lg'> Proven Success: </b>
+                    Our portfolio speaks for itself. We have successfully listed numerous tokens that have gone on to achieve significant trading volumes and investor interest. 
+                    Your success is our priority.
+
+                    </h1>
+               </div>
+               <div className='flex gap-5 -ml-5 place-content-center choose3'>
+               <img src={mark} alt="" className='w-12 h-12' />
+                    <h1 className='text-gray-400  jockey-one-regular text-md '>
+                       <b className='text-white text-lg'> Ongoing Support: </b> 
+                        Listing your token is just the beginning. We provide ongoing support post-listing, helping you navigate any challenges and seize opportunities 
+                        as your project grows.
+                    </h1>
                </div>
                          
              
         </div>
 
-        {/* rigth_float */}
-        <div className='float-right  ml-[56rem] '>
+        {/* right_float */}
+        {/* <div className='float-right  ml-[56rem] '>
              
 
-            {/* glass_container */}
+            {/* glass_container
             <div className=' grid grid-cols-2 gap-y-20 gap-x-[4rem] -ml-[26rem] containerQ' data-aos='slide-up' data-aos-duration='2000'>
               <div className='glass_container1'>
                 <h1 className='text-white font-bold  p-6 text11 text-xl'>
@@ -259,14 +298,14 @@ const homepage = () => (
             </div>
 
          
-        </div>
+        </div> */}
 
       </div>
 
 
       {/* why_choose_us_ends */}
 
-      <div className='-mt-8 '>
+      <div className='mt-[3rem] '>
 
         <h1 className='text-white text-wrap text-7xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
           Members Accomplishment
@@ -297,7 +336,7 @@ const homepage = () => (
               +150
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p ' data-aos='slide-up' data-aos-duration='2000'>
-               Happy Custmers            
+               Happy Customers            
             </h3>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
@@ -316,6 +355,9 @@ const homepage = () => (
           <h1 className='text-white  text-center  lawn_color font-bold text-7xl float-left text-nowrap  jockey-one-regular watchword ' data-aos='fade' data-aos-duration='2000'>
             Our Watchword
           </h1>
+          <p className='text-2xl text-wrap text-center p-5 text-gray-400  '>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />  Earum et adipisci soluta similique velit eius, excepturi, commodi veritatis accusamus corporis facilis 
+          </p>
           <div className='flex gap-5 place-content-center percent_grid'>
             <div className=' glass_container6 grid place-content-center mt-12 ' data-aos='zoom-in' data-aos-duration='2500'>
               <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
@@ -354,13 +396,10 @@ const homepage = () => (
                 through effective listing strategies. We provide trust and security in the crypto industry.
               </h1>
               <div className='flex p-5 mt-5 '>
-                <img src={logo} alt="" className='rounded-full w-52 h-32 logo1' />
-                {/* <h1 className='jockey-one-regular text-white font-bold text-3xl   mt-10 -ml-4 text-center text6'>
-                  Fasttrack 
-                </h1> */}
+                <img src={logo} alt="" className='rounded-full w-52 h-32 logo1' />   
               </div>
-
             </div>
+            
           </div>
 
 
