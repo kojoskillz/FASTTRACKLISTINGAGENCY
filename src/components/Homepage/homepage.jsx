@@ -7,7 +7,7 @@ import img4 from './images_home/lbank.png';
 import img5 from './images_home/mexc-xep.png';
 import img6 from './images_home/okx-review.png';
 import img7 from './images_home/probit.png';
-import img10 from './images_home/img10.webp';
+import img10 from './images_home/logoX.png';
 import img11 from './images_home/shilling (3).png';
 import img12 from './images_home/seo.png';
 import img13 from './images_home/checklist.png';
@@ -15,10 +15,6 @@ import img14 from './images_home/digital-marketing.png';
 import img15 from './images_home/shilling (2).png';
 import img16 from './images_home/img16.png';
 import img17 from './images_home/face2.jpg';
-import img18 from './images_home/robothand.png';
-import img19 from './images_home/bitcoin.png';
-import img20 from './images_home/crypto.png';
-import img21 from './images_home/crypt2.png';
 import logo from './images_home/Fasttrack logo.png';
 import mark from './images_home/checkmark.png';
  
@@ -63,17 +59,12 @@ const homepage = () => (
     <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
       <div className='fade_rule'></div>
     </div>
-       {/* binance widget */}
-       <div className="binance-widget-marquee" data-cmc-ids="1,1027,1839,5426,3408,52,74,5805,3890,7083" data-theme="dark" data-transparent="false" data-powered-by="Powered by" data-disclaimer="Disclaimer" >
-      </div> 
-       {/* binance widget ends */}
 
-
-
-    <img src={img10} alt="" className='w-[30rem] h-[70rem] object-contain grid place-content-center -mt-[14rem] m-auto' data-aos='slide-up' data-aos-duration='2000' />
+{/* homepageImage */}
+    <img src={img10} alt="" className='w-[20rem] h-[50rem] object-contain grid place-content-center -mt-[6rem] m-auto' data-aos='slide-up' data-aos-duration='2000' />
  
     {/* section0 */}
-    <div className='-mt-[16rem] bg-black sec0 '>
+    <div className='-mt-[5rem] bg-black sec0 '>
       <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
          Partnered with leading companies such as...
       </h1>
