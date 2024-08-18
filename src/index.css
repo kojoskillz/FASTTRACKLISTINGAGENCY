@@ -82,6 +82,13 @@ body{
 
   }
 
+  .grid_rate{
+    display: grid;
+   place-content: center;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 40px;
+  }
+
 
   /* @keyframes animateMe{
     from{
@@ -256,6 +263,9 @@ padding: 5rem;
   row-gap: 2rem;
   margin-left: -32rem;
 }
+
+
+
 
 
 
@@ -620,6 +630,8 @@ div .btcwdgt{
       .grid_rate{
         display: grid;
        place-content: center;
+       grid-template-columns: 1fr
+
       }
 
       .rate{
@@ -657,7 +669,6 @@ div .btcwdgt{
         display: grid;
         place-content: center;
        font-size: 40px;
-       margin-left: rem; 
 
       }
    
@@ -1018,7 +1029,8 @@ div .btcwdgt{
 
       .grid_rate{
         display: grid;
-       place-content: center;
+        place-content: center;
+        gap: 7rem;
       }
 
       .rate{
@@ -1026,7 +1038,7 @@ div .btcwdgt{
       }
 
       .rate_p{
-        font-size: 20px;
+        font-size: 23px;
         text-align: center;
         display: grid;
         place-content: center;
@@ -1216,6 +1228,7 @@ div .btcwdgt{
         grid-template-columns: 1fr 1fr;
         margin: 4rem;
         margin-top: -1rem;
+        gap: 9rem;
 
       }
 
