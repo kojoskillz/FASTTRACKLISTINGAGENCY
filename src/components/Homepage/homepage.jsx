@@ -57,7 +57,7 @@ const homepage = () => (
 
     {/* horizontal_line */}
     <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
-      <div className='fade_rule'></div>
+        <div className='fade_rule'></div>
     </div>
 
 {/* homepageImage */}
@@ -88,7 +88,7 @@ const homepage = () => (
 
 
       {/* our_services */}
-      <div className='mb-[10rem] ml-14 -mt-16' id='Services'>
+      <div className='mb-[10rem] ml-14 -mt-[10rem]' id='Services'>
         <div className='grid p-6'>
           <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
@@ -234,63 +234,6 @@ const homepage = () => (
              
         </div>
 
-        {/* right_float */}
-        {/* <div className='float-right  ml-[56rem] '>
-             
-
-            {/* glass_container
-            <div className=' grid grid-cols-2 gap-y-20 gap-x-[4rem] -ml-[26rem] containerQ' data-aos='slide-up' data-aos-duration='2000'>
-              <div className='glass_container1'>
-                <h1 className='text-white font-bold  p-6 text11 text-xl'>
-                  Expertise & Experience
-                </h1>
-                <img src={img18} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
-                <p className='text-lg text-gray-500 p-6 text10'>
-                  Our agency specialises in the process of getting cryptocurrencies listed on exchanges.We possees in-depth
-                  knowledge of listing requirements,documentations and best practices.
-                </p>
-              </div>
-
-              <div className='glass_container containerY' data-aos='slide-up' data-aos-duration='2000'>
-                <h1 className='text-white p-6 font-bold  text11 text-xl'>
-                  Industry Connection
-                </h1>
-                <img src={img19} alt="" className=' m-auto -mt-8    w-[5rem] h-[8rem] object-contain '/>
-                <p className='text-lg text-gray-500 p-6 text10'>
-                  Have established relationships and connections with various Cryptocurrency exchanges.We leverage these connections to facilitate
-                  the listings process, negotiate favourable terms, and enhance the projects visiblity within the exchange ecosystem.
-                </p>
-              </div>
-              <div className='glass_container3' data-aos='slide-up' data-aos-duration='2000'>
-                <h1 className='text-white p-6 font-bold  text11  text-xl'>
-                  Market Research & Analysis
-                </h1>
-                <img src={img20} alt="" className=' m-auto -mt-2   w-[12rem] h-[12rem] object-contain '/>
-                <p className='text-lg text-gray-500 p-6 -mt-10 text10'>
-                  As a reputable listing agency, we conduct thorough market research and analysis to identify the most suitable
-                  projects for your projects. 
-                </p>
-              
-              </div>
-              
-              <div className='glass_container4 containerY containerX' data-aos='slide-up' data-aos-duration='2000'>
-                <h1 className='text-white p-6 font-bold  text11 text-xl'>
-                  Tailored Marketing Strategies
-                </h1>
-                <img src={img21} alt="" className=' m-auto -mt-2   w-[10rem] h-[8rem] object-contain '/>
-                <p className='text-lg text-gray-500 p-6 text10 '>
-                  Our agency offers additional marketing services  to support your projects success beyond
-                  the listing itself. We help develop
-                </p>
-               
-              </div>
-
-
-            </div>
-
-         
-        </div> */}
-
       </div>
 
 
@@ -302,41 +245,66 @@ const homepage = () => (
           Members Accomplishment
         </h1>
         <h3 className=' lawn_color1  text-wrap text-lg mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
-          History is boring! but  numbers aren't
+            History is boring! but  numbers aren't
         </h3>
 
-        <div className='flex place-content-center gap-32 grid_rate'>
+        <div className='flex place-content-center gap-12 grid_rate'>
           <div className='grid text-wrap text-center mt-20'>
             <h1 className='text-8xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
-              +200
+              100+
             </h1>
             <h3 className=' lawn_color1 text-lg rate_p' data-aos='slide-up' data-aos-duration='2000'>
-             Projects Completed
+            Successful Token Listings
             </h3>
+            <p className=' text-gray-200 text-lg' data-aos='slide-up' data-aos-duration='2000'>
+               Over 100 tokens listed on CoinMarketCap, CoinGecko, and leading
+              centralized exchanges.
+            </p>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
             <h1 className='text-8xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
-              +300
+              95%
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
-            Projects in Progress
+               Client Satisfaction
             </h3>
+            <p className=' text-gray-200 text-lg' data-aos='slide-up' data-aos-duration='2000'>
+                Consistently delivering high-quality service with a 95% client satisfaction.
+            </p>
+          </div>
+
+          <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
+            <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+              50+
+            </h1>
+            <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+               Marketing Campaigns Executed
+            </h3>
+            <p className=' text-gray-200 text-lg' data-aos='slide-up' data-aos-duration='2000'>
+              Launched and managed over 50 successful marketing campaigns,driving significant engagement and growth.
+            </p>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
             <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
-              +150
+              10x
             </h1>
-            <h3 className=' lawn_color1 text-lg  rate_p ' data-aos='slide-up' data-aos-duration='2000'>
-               Happy Customers            
+            <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
+               Community Growth
             </h3>
+            <p className=' text-gray-200 text-lg' data-aos='slide-up' data-aos-duration='2000'>
+               Helped clients grow their communities by up to 10 times within six months.
+            </p>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
             <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
-              +20
+              80%
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
-              Awards Project
+               Faster Listings
             </h3>
+            <p className=' text-gray-200 text-lg' data-aos='slide-up' data-aos-duration='2000'>
+               Achieved listings up to 80% faster than industry averages, ensuring your tokens gets to market quickly.
+            </p>
           </div>
 
         </div>
@@ -393,18 +361,38 @@ const homepage = () => (
             
           </div>
 
-
-  
-  
-
-
-
           {/* ends */}
         </div>
       </div>
 
 
 
+    </div>
+
+
+
+          {/* FAQ */}
+              {/* FREQUENTLY ASKED QUESTIONS */}
+     <div className="collapse collapse-arrow bg-base-200">
+          <input type="radio" name="my-accordion-2" defaultChecked />
+          <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+          <div className="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow bg-base-200">
+          <input type="radio" name="my-accordion-2" />
+          <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+          <div className="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow bg-base-200">
+          <input type="radio" name="my-accordion-2" />
+          <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+          <div className="collapse-content">
+            <p>hello</p>
+          </div>
     </div>
 
 
