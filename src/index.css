@@ -139,7 +139,7 @@ border: 1px solid rgba(255, 255, 255, 0.178);
   .choose2{
     display: grid;
     place-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
 
@@ -413,7 +413,7 @@ div .btcwdgt{
         backdrop-filter: blur(45px);
         -webkit-backdrop-filter: blur(50px);
         border: 1px solid rgba(255, 255, 255, 0.127);     
-        height: 125rem;
+        height: 140rem;
         max-width: fit-content;
         margin: auto;
         display: grid;
@@ -858,6 +858,7 @@ div .btcwdgt{
         place-content: center;
         grid-template-columns: 1fr;
         text-wrap: wrap;
+        padding: 25px;
       }
 
    
@@ -1183,6 +1184,7 @@ div .btcwdgt{
         place-content: center;
         height: 63rem;
         margin-top: 4rem;
+        padding: 30px;
        }
 
       /* .containerQ{
