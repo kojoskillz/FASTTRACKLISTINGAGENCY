@@ -1181,6 +1181,8 @@ div .btcwdgt{
         display: grid;
         grid-template-columns:  1fr;
         place-content: center;
+        height: 63rem;
+        margin-top: 4rem;
        }
 
       /* .containerQ{
