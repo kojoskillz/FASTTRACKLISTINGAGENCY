@@ -35,11 +35,11 @@ const homepage = () => (
 
     <div className='m-auto flex gap-7 place-content-center mt-8 ' >
     <button>
-       <a className="btn" href="https://t.me/fasttracklistingz">Join Now</a>
+       <a className="btnY" href="https://t.me/fasttracklistingz">Join Now</a>
     </button>
       
     <div className='bg-transparent rounded-lg b w-32 text-center border-gray-400 glass_containerQ text-white p-2 '>
-       <a className="btn font-bold   " href="#">Get Enrolled</a>
+       <a className="btnY font-bold   " href="#">Get Enrolled</a>
     </div>  
     </div>
 
@@ -116,34 +116,41 @@ const homepage = () => (
         <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
         <div className='flex mt-12 gap-5 tokens'>
 
+
           <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3000'>
-            <img src={img11} alt="" className='w-16 h-16 img11' />
-            <h1 className='text-gray-500  text-lg text-center '>
-              Shilling
+            <img src={img13} alt="" className='w-16 h-16 img11' />
+            <h1 className='text-gray-500  text-no0wrap text-lg text-center '>
+              CMC listing
             </h1>
           </div>
           <div className=' glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='2500'>
-            <img src={img12} alt="" className='w-16 h-16 img12' />
+            <img src={img15} alt="" className='w-16 h-16 img12' />
             <h1 className='text-gray-500  text-lg text-center '>
-              Top tier cex
+              CG Listing
             </h1>
           </div>
           <div className=' glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='2000'>
-            <img src={img13} alt="" className='w-16 h-16 img13' />
+            <img src={img12} alt="" className='w-16 h-16 img13' />
             <h1 className='text-gray-500  text-lg text-center  '>
-              CMC listing
+            Top Tier Cex
             </h1>
           </div>
           <div className=' glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='1500'>
             <img src={img14} alt="" className='w-16 h-16 img14' />
             <h1 className='text-gray-500  text-lg text-center '>
-              Marketing
+                Marketing
+            </h1>
+          </div>
+          <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
+            <img src={img11} alt="" className='w-16 h-16 img15' />
+            <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
+              Shilling
             </h1>
           </div>
           <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
             <img src={img15} alt="" className='w-16 h-16 img15' />
             <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
-              CG Listing
+              Trending
             </h1>
           </div>
 
@@ -371,29 +378,6 @@ const homepage = () => (
 
 
 
-          {/* FAQ */}
-              {/* FREQUENTLY ASKED QUESTIONS */}
-     <div className="collapse collapse-arrow bg-base-200">
-          <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-          <div className="collapse-content">
-            <p>hello</p>
-          </div>
-        </div>
-        <div className="collapse collapse-arrow bg-base-200">
-          <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-          <div className="collapse-content">
-            <p>hello</p>
-          </div>
-        </div>
-        <div className="collapse collapse-arrow bg-base-200">
-          <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-          <div className="collapse-content">
-            <p>hello</p>
-          </div>
-    </div>
 
 
     {/* ends */}
