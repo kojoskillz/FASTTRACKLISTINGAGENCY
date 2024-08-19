@@ -102,7 +102,7 @@ body{
 
 
 .sec0{
-    padding-bottom: 17rem;
+    padding-bottom: 10rem;
     --color: rgba(39, 38, 38, 0.178);
     background-color: #000000;
     background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
@@ -708,6 +708,11 @@ div .btcwdgt{
       text-wrap: wrap;
      }
 
+    .FAQ{
+         margin: auto;
+         width: 22rem;
+    }
+
      .text7{
       font-size: 17px;
      }
@@ -955,7 +960,7 @@ div .btcwdgt{
       }
 
       .token1{
-        margin-left: -3rem;
+        margin-left: -2rem;
         width: 7rem;
         height: 6rem;
         padding: 20px;
@@ -969,7 +974,7 @@ div .btcwdgt{
       }
 
       .token2{
-        margin-left: -3.8rem;
+        margin-left: -1.7rem;
         text-wrap: nowrap;
         width: 7rem;
         height: 6rem;
@@ -984,7 +989,7 @@ div .btcwdgt{
       }
 
       .token3{
-        margin-left: -4.5rem;
+        margin-left: -1.4rem;
         text-wrap: nowrap;
         width: 7rem;
         height: 6rem;
@@ -1002,6 +1007,7 @@ div .btcwdgt{
         width: 7rem;
         height: 6rem;
         padding: 20px;
+        margin-left: -2rem;
       }
 
       .img15{
@@ -1015,6 +1021,7 @@ div .btcwdgt{
         width: 7rem;
         height: 6rem;
         padding: 20px;
+        margin-left: -2rem;
       }
 
 
@@ -1104,6 +1111,7 @@ div .btcwdgt{
      }
 
      .footer{
+      display: grid;
       margin-top: -18rem;
       margin-left: -1rem;
       text-wrap: wrap;
@@ -1169,7 +1177,10 @@ div .btcwdgt{
           margin:auto
       }
       
-           
+      .FAQ{
+        margin: auto;
+        width: 32rem;
+   }
 
       .buttonY{
         margin-top: 25rem;
