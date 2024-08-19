@@ -52,15 +52,11 @@ const footer = () => {
 
 {/* horizontal_line */}
             <div className='grid place-content-center m-auto rounded-full mt-10'>
-              <div className='fade_rule'></div>
+              <div className='fade_rule m-auto place-content-center grid'></div>
             </div>
-            
- 
-      </div>
-
-  
-{/* Quicklinks */}
-      <div className='text-white font-light text-base m-auto place-content-center flex'>
+    {/* Quicklinks */}
+<div className='grid  place-content-center m-auto'>
+<div className='text-white font-light text-base m-auto place-content-center flex'>
            <ul className='flex gap-5 jockey-one-regular  text8'>
               <li><a href="#Home" className='cursor-pointer hover:text-red-600'>Home</a></li>
               <li><a href="#About Us" className='cursor-pointer hover:text-red-600'>About Us</a></li>
@@ -75,6 +71,13 @@ const footer = () => {
 
          
     </div>
+  
+</div>        
+ 
+      </div>
+
+  
+
   )
 }
 
