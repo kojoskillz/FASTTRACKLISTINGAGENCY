@@ -11,7 +11,7 @@ const footer = () => {
                     <span className='lawn_color1 text-4xl footer_text'>FastTrack</span>ListingAgency
             </h1>
             <p className='text-white text-lg   0 .112 '>
-                We provide the best services by listing you on our platform and connceting you with a global network of investors.
+                We provide the best services by listing you on our platform and connecting you with a global network of investors.
             </p>
 
 
