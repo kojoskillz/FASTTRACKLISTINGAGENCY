@@ -1201,11 +1201,11 @@ div .btcwdgt{
        }
 
        .choose2{
-        margin-top: 30rem;
+        margin-top: 27rem;
         display: grid;
         grid-template-columns:  1fr;
         place-content: center;
-        height: 63rem;
+        height: 75rem;
         margin-top: 4rem;
         padding: 30px;
        }
@@ -1261,6 +1261,10 @@ div .btcwdgt{
        font-size:2.6rem;
       }
 
+      .img15{
+        object-fit: contain;
+      }
+
     .fade_rule{
         width: 650px;
       }
@@ -1279,6 +1283,7 @@ div .btcwdgt{
 
       .chooseX{
         font-size: 80px;
+        margin-top: -6rem;
       }
 
     }
