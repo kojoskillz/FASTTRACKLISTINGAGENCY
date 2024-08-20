@@ -10,8 +10,8 @@ const footer = () => {
             <h1 className='font-extrabold text-white text-4xl jockey-one-regular footer_text'>
                     <span className='lawn_color1 text-4xl footer_text'>FastTrack</span>ListingAgency
             </h1>
-            <p className='text-white '>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quis 
+            <p className='text-white text-lg   0 .112 '>
+                We provide the best services by listing you on our platform and connceting you with a global network of investors.
             </p>
 
 
