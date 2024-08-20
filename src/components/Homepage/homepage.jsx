@@ -16,7 +16,8 @@ import img15 from './images_home/shilling (2).png';
 import img16 from './images_home/img16.png';
 import img17 from './images_home/face2.jpg';
 import logo from './images_home/Fasttrack logo.png';
-import mark from './images_home/checkmark.png';
+import mark from './images_home/checkmark.png';                     
+import img18 from './images_home/img18 (2).png';                     
  
 
 
@@ -119,7 +120,7 @@ const homepage = () => (
 
           <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3000'>
             <img src={img13} alt="" className='w-16 h-16 img11' />
-            <h1 className='text-gray-500  text-no0wrap text-lg text-center '>
+            <h1 className='text-gray-500  text-nowrap text-lg text-center '>
               CMC listing
             </h1>
           </div>
@@ -148,7 +149,7 @@ const homepage = () => (
             </h1>
           </div>
           <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
-            <img src={img15} alt="" className='w-16 h-16 img15' />
+            <img src={img18} alt="" className='w-32 h-32 img15' />
             <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
               Trending
             </h1>
