@@ -1,11 +1,12 @@
 import React from 'react';
+import Marquee from "react-fast-marquee";
 import img0 from './images_home/binance.png';
 import img1 from './images_home/bitmart.png';
-import img2 from './images_home/full-coinw-logo.png';
+import img2 from './images_home/coinw.png';
 import img3 from './images_home/kucoin.png';
 import img4 from './images_home/lbank.png';
-import img5 from './images_home/mexc-xep.png';
-import img6 from './images_home/okx-review.png';
+import img5 from './images_home/mexc.png';
+import img6 from './images_home/okx.png';
 import img7 from './images_home/probit.png';
 import img10 from './images_home/logoX.png';
 import img11 from './images_home/shilling (3).png';
@@ -21,13 +22,14 @@ import img18 from './images_home/img18 (2).png';
  
 
 
-const homepage = () => (
+const homepage = () => {
+   return (
   // mainpage
   <div className=' pb-[10rem] sec0 ' id='Home'>
-    <h1 className='font-extrabold text-red-500 text-8xl pt-20 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
-      <span className='lawn_color1 lawn_color2 text-9xl' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>
-         <span className='text-white  text-8xl font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>
-                Ready To Elevate Your  Cryptocurrency  project to new heights?
+    <h1 className='font-extrabold text-red-500 text-8xl pt-32 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
+      <span className='lawn_color1 lawn_color2 text-8xl' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>
+         <span className='text-white  text-6xl font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>
+                Ready To Elevate Your <br /> Cryptocurrency  project to new heights?
         </span>
     </h1>
     <p className='text-slate-50 font-semibold -mt-4  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
@@ -44,52 +46,15 @@ const homepage = () => (
     </div>  
     </div>
 
-    
-      {/* circle */}
-      <div className='flex mt-10 place-content-center boost'>
-             <img src={img17} alt="" className='h-14 mt-3 w-14  flex rounded-full place-content-center' />
-          <div className='grid'>
-             <h3 className='text-white/95 text-lg font-bold text-wrap p-1 textX'> "They are the best listing agency I know of" </h3>
-             <h5 className='text-gray-300  text-sm font-light text-wrap ml-4 -mt-4 h5_text '> "Joe Winston,CEO Neptune Inc. " </h5>
-         </div>
-      
-    </div>
-    
-
     {/* horizontal_line */}
     <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
         <div className='fade_rule'></div>
     </div>
 
-{/* homepageImage */}
-    <img src={img10} alt="" className='w-[20rem] h-[50rem] object-contain grid place-content-center -mt-[6rem] m-auto' data-aos='slide-up' data-aos-duration='2000' />
- 
-    {/* section0 */}
-    <div className='-mt-[5rem] bg-black sec0 '>
-      <h1 className='text-wrap text-white text-2xl pt-10 text-center '>
-         Partnered with leading companies such as...
-      </h1>
-      {/* partners_images */}
-
-      <marquee behavior="" direction="" scrolldelay="10" width="90%">
-        <div className='flex place-content-center gap-32'>
-          <img src={img0} alt="" className='w-[30rem]   h-[30rem] -mt-[8.4rem]  -mr-10 object-contain ' />
-          <img src={img1} alt="" className='w-52 h-52 object-contain ' />
-          <img src={img2} alt="" className='w-52 h-52 object-contain ' />
-          <img src={img3} alt="" className='w-52 h-52 object-contain ' />
-          <img src={img4} alt="" className='w-[10rem] h-[10rem] mt-6  object-contain ' />
-          <img src={img5} alt="" className='w-[8rem]  h-[8rem]  mt-10 -mr-10  object-contain ' />
-          <img src={img6} alt="" className='w-[14rem] h-[14rem] object-contain ' />
-          <img src={img7} alt="" className='w-[14rem] h-[14rem] -ml-10  object-contain ' />
-        </div>
-      </marquee>
-
-      {/* glow */}
-      <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
 
 
       {/* our_services */}
-      <div className='mb-[10rem] ml-14 -mt-[10rem]' id='Services'>
+      <div className='mb-[10rem] ml-14 mt-[-2rem]' id='Services'>
         <div className='grid p-6'>
           <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
@@ -149,7 +114,7 @@ const homepage = () => (
             </h1>
           </div>
           <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
-            <img src={img18} alt="" className='w-32 h-32 img15' />
+            <img src={img18} alt="" className='w-16 h-16 img15' />
             <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
               Trending
             </h1>
@@ -161,15 +126,66 @@ const homepage = () => (
       </div>
 
 
+{/* partners */}
+
+   <div className='grid place-content-center m-auto'>
+       <h1 className='text-4xl text-center jockey-one-regular text-white'>
+         Partnered with leading companies such as... 
+       </h1>
+
+{/* images_container */}
+       <div className='m-auto grid place-content-center mt-16 gap-5 grid-cols-2'>
+       <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img0} alt="" className='-mt-[5rem] img0' />
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img1} alt="" className='-mt-[2rem] img_up6'/>
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img2} alt="" className='-mt-[3rem] img_up5'/>
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img3} alt="" className='-mt-[3rem]  img_up'/>
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img4} alt="" className='-mt-[3rem] img_up1'/>
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img5} alt="" className='mt-[2rem] img_up2'/>
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img6} alt="" className='-mt-[5rem] img_up3'/>
+          </div>
+          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
+              <img src={img7} alt="" className='mt-[1rem] img_up4'/>
+          </div>
+            
+       </div>
+
+<div>
+
+</div>
+
+   </div>
+
+
+
+
+     
+      {/* glow */}
+      <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
+
+
+
       {/* why_choose_us */}
-      <div className='grid jockey-one-regular place-content-center -mt-10 m-auto  mb-2 p-20 '>
+      <div className='grid jockey-one-regular place-content-center mt-[8rem] m-auto  mb-2 p-20 '>
         {/* left_float */}
         <h1 className='text-white  lawn_color font-bold text-8xl  chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
         </h1>
         
         {/* choose2 */}
-        <div className='grid choose2  choose_glass m-auto place-content-center  mt-[5rem] gap-11'>
+        <div className='grid choose2  choose_glass m-auto place-content-center  mt-[5+rem] gap-11'>
                <div className='flex gap-5 -ml-5 place-content-center choose3'>
                     <img src={mark} alt="" className='w-12 h-12' />
                     <h1 className='text-gray-400  jockey-one-regular text-md '>
@@ -317,44 +333,8 @@ const homepage = () => (
 
         </div>
 
-        {/* watchword */}
-        <div className='grid place-content-center m-auto mt-32'>
-          <h1 className='text-white  text-center  lawn_color font-bold text-7xl float-left text-nowrap  jockey-one-regular watchword ' data-aos='fade' data-aos-duration='2000'>
-            Our Watchword
-          </h1>
-          <p className='text-2xl text-wrap text-center p-5 text-gray-400  '>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />  Earum et adipisci soluta similique velit eius, excepturi, commodi veritatis accusamus corporis facilis 
-          </p>
-          <div className='flex gap-5 place-content-center percent_grid'>
-            <div className=' glass_container6 grid place-content-center mt-12 ' data-aos='zoom-in' data-aos-duration='2500'>
-              <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
-                100%
-              </h1>
-              <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
-                Credibility
-              </p>
-            </div>
-
-            <div className=' glass_container6 grid place-content-center mt-12' data-aos='zoom-in' data-aos-duration='2000'>
-              <h1 className=' jockey-one-regular text-6xl text-white percent_grid_text'>
-                100%
-              </h1>
-              <p className=' lawn_color1 jockey-one-regular text-xl p-2 text-white percent_grid_p'>
-                Excellence
-              </p>
-            </div>
-
-            <div className=' glass_container6 grid place-content-center mt-12 pb-10' data-aos='zoom-in' data-aos-duration='1500'>
-              <h1 className='jockey-one-regular text-6xl text-white p-10 percent_grid_text'>
-                100%
-              </h1>
-              <p className=' lawn_color1 jockey-one-regular text-xl p-2 -mt-12 text-white percent_grid_p'>
-                Transparency
-              </p>
-            </div>
-          </div>
-
-
+        <div className='grid place-content-center m-auto mt-8'>
+        
           <div className='glass_container7 grid place-content-center m-auto mt-16 '>
 
             <div data-aos='fade' data-aos-duration='2000'>
@@ -376,22 +356,11 @@ const homepage = () => (
 
 
     </div>
-
-
-
-
-
-    {/* ends */}
-  </div>
-
-
-
-
-
-
+ 
 
 
 
 )
+}
 
 export default homepage
