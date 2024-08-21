@@ -31,11 +31,11 @@ const homepage = () => {
                 Ready To Elevate Your <br /> Cryptocurrency  project to new heights?
         </span>
     </h1>
-    <p className='text-slate-50 font-semibold -mt-4  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
+    {/* <p className='text-slate-50 font-semibold -mt-4  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
       Launch your crypto project to new heights with us! and get listed on top exchanges,<br /> boosting your visibility and credibility.
-    </p>
+    </p> */}
 
-    <div className='m-auto flex gap-7 place-content-center mt-8 ' >
+    {/* <div className='m-auto flex gap-7 place-content-center mt-8 ' >
     <button>
        <a className="btnY" href="https://t.me/fasttracklistingz">Join Now</a>
     </button>
@@ -43,7 +43,7 @@ const homepage = () => {
     <div className='bg-transparent rounded-lg b w-32 text-center border-gray-400 glass_containerQ text-white p-2 '>
        <a className="btnY font-bold   " href="#">Get Enrolled</a>
     </div>  
-    </div>
+    </div> */}
 
     {/* horizontal_line */}
     <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
@@ -58,7 +58,7 @@ const homepage = () => {
           <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
           </h1>
-          <p className='text-xl text-gray-500 text-wrap pt-5 text3_p ' data-aos='fade-up' data-aos-duration='2000'>
+          <p className='text-xl text-white text-wrap pt-5 text3_p ' data-aos='fade-up' data-aos-duration='2000'>
               At Fast-Track, we specialize in fast and effective token listings on CoinMarketCap, <br /> CoinGecko, and top centralized exchanges. We offer strategic consulting,<br /> tailored marketing, and ongoing support to ensure your project gets the attention it deserves.
               <br /> With transparent pricing and a seamless process, we make your success our priority. <br />
                Let's take your crypto project to the next level.
