@@ -112,7 +112,7 @@ const homepage = () => {
               Shilling
             </h1>
           </div>
-          <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
+          <div className=' glass_container5 grid place-content-center token5 token6' data-aos='zoom-in' data-aos-duration='1000'>
             <img src={img18} alt="" className='w-16 h-16 img15' />
             <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
               Trending
