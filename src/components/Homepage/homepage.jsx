@@ -80,7 +80,7 @@ const homepage = () => {
 
         {/* images of tokens */}
         <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
-        <div className='flex mt-12 gap-5 tokens'>
+        <div className='flex mt-12 gap-5 tokens '>
 
 
           <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3000'>
