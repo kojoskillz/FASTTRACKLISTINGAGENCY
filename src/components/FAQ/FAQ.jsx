@@ -6,14 +6,14 @@ import React from 'react'
               {/* FREQUENTLY ASKED QUESTIONS */}
 const FAQ = () => {
   return (
-    <div className='mb-[30rem] m-auto'>
+    <div className='mb-[30rem] m-auto mt-5'>
         
 
-        <div className='jockey-one-regular text-5xl lawn_color mb-32 text-center -mt-40'>
+        <div className='jockey-one-regular text-5xl lawn_color mb-32 FAQ_h1 text-center -mt-20'>
             Frequently Asked Questions
         </div>
 
-     <div className='w-[50rem] m-auto FAQ -mt-24'>
+     <div className='w-[50rem] m-auto FAQ -mt-20'>
                     <div className="collapse collapse-arrow bg-base-200 mb-5">
                       <input type="radio" name="my-accordion-2" defaultChecked />
                       <div className="collapse-title text-xl font-medium">What services does your agency provide?
