@@ -27,7 +27,7 @@ const homepage = () => {
   <div className=' pb-[10rem] sec0 ' id='Home'>
     <h1 className='font-extrabold text-red-500 text-8xl pt-32 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
       <span className='lawn_color1 lawn_color2 text-8xl' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>
-         <span className='text-white  text-6xl font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>
+         <span className='text-white  text-7xl font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>
                 Ready To Elevate Your <br /> Cryptocurrency  project to new heights?
         </span>
     </h1>
@@ -133,7 +133,7 @@ const homepage = () => {
        </h1>
 
 {/* images_container */}
-       <div className='m-auto grid place-content-center mt-16 gap-5 grid-cols-2'>
+       <div className='m-auto grid place-content-center mt-16 gap-8 partners grid-cols-3'>
        <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
               <img src={img0} alt="" className='-mt-[5rem] img0' />
           </div>
