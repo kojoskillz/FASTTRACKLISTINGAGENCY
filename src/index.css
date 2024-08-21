@@ -995,7 +995,7 @@ div .btcwdgt{
         margin-top: 35rem;
         display: grid;
         place-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
       }
 
       .img11{
