@@ -1,5 +1,4 @@
 import React from 'react';
-import Marquee from "react-fast-marquee";
 import img0 from './images_home/binance.png';
 import img1 from './images_home/bitmart.png';
 import img2 from './images_home/coinw.png';
