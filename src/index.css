@@ -348,7 +348,7 @@ border: 1px solid rgba(255, 255, 255, 0.178);
     backdrop-filter: blur(45px);
     -webkit-backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.127);     
-    height: 18rem;
+    height: 20rem;
     width: 27rem;
     padding: 3rem;
     max-width: fit-content;
@@ -457,10 +457,6 @@ padding: 5rem;
 }
 
 
-
-
-
-
 .glass_containerQ{
     /* From https://css.glass */
 background: rgba(60, 60, 60, 0.14);
@@ -474,8 +470,6 @@ border: 1px solid rgba(255, 255, 255, 0.171);
 div .btcwdgt{
   max-width: 100% !important;
 }
-
-
 
 
 .tilt-in-fwd-tr {
@@ -620,18 +614,18 @@ div .btcwdgt{
         margin: auto;
         display: grid;
         place-content: center;
-        margin-top: 90rem;
+        margin-bottom: 18rem;
         display: grid;
       
       }
 
-      .choose_glass{
+      /* .choose_glass{
         width: 22rem;
         padding: 10px;
         display: grid;
         place-content: center;
         margin: auto;
-    }
+    } */
 
 
        .ul_list{
@@ -1005,7 +999,7 @@ div .btcwdgt{
           backdrop-filter: blur(5px);
           -webkit-backdrop-filter: blur(5px);
           border: 1px solid rgba(255, 255, 255, 0.178);
-          height: 28rem;
+          height: 30rem;
           width: 20rem;
           display: grid;
           place-content: center;
@@ -1051,21 +1045,23 @@ div .btcwdgt{
         font-size: 3.8rem;
         padding: 60px;
         padding-top:14rem;
-        margin-left: 2rem;
+        margin-left: 5rem;
        }
 
+       
+
        .socials{
-        margin-left: 6rem;
+        margin-left: 9rem;
        }
 
        .ui-btn{
-        margin-left: 3.5rem;
+        margin-left: 6.5rem;
        }
 
        .ui-btn2{
          margin: auto;
          margin-top: -4rem;
-         margin-left: 4rem;
+         margin-left: 5rem;
        }
        
        .text2{
@@ -1077,8 +1073,9 @@ div .btcwdgt{
 
        .lawn_color{
         text-align: center;
-        font-size: 2.6rem;
+        font-size: 1.8rem;
         text-wrap: wrap;
+        
        }
 
        .lawn_color1{
@@ -1089,13 +1086,17 @@ div .btcwdgt{
        .choose{
          margin-left: -1rem;
          font-size: 3.5rem; 
+         margin-bottom: 8rem;
       }
       .chooseX{
         margin-top: 2rem;
+        margin-bottom: -40rem;
+
+
       }
 
       .choose2{
-        margin-top: 5rem;
+        margin-top: 26rem;
         font-size: 18px;
         display: grid;
         place-content: center;
@@ -1147,13 +1148,14 @@ div .btcwdgt{
 
       .text3_p{
         text-align: center;
-        padding: 40px;
-        font-size: 20px;
+        padding: 50px;
+        font-size: 24px;
         text-wrap: wrap;
-        margin-left: -4rem;
       }
 
       .img16{
+        display: grid;
+        place-content: center;
         margin: auto;
         margin-top: -4rem;
       }
