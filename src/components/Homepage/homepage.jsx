@@ -27,9 +27,9 @@ import telegram from './images_home/telegram.png';
 const homepage = () => {
    return (
   // mainpage
-  <div className=' pb-[10rem] grid m-auto place-content-center ' id='Home' >
-
-<video autoPlay loop muted src= {vid} className='object-cover w-full  h-[45rem] gradient' />
+  <div className=' pb-[10rem] grid m-auto place-content-center main_p ' id='Home' >
+ 
+     <video autoPlay loop muted src= {vid} className='object-cover w-full  h-[45rem] gradient' />
     <div className=' grid '>
     <h1 className='ml-10 font-extrabold text-white absolute -mt-[50rem] text-[8rem] pt-32 pb-[2rem]  float-left text-wrap text-left grid place-content-center  jockey-one-regular text1'>
           Fast Track <br />  Listing Agency.                 
@@ -72,9 +72,10 @@ const homepage = () => {
 
         {/* button */}
      
-           <div className='m-auto flex gap-7 ui-btn2 absolute place-content-left ml-7 -mt-[2rem]' >
+ <div className='m-auto flex gap-7 ui-btn2 absolute place-content-left ml-7 -mt-[2rem]' >
  
-    <a href="https://t.me/fasttracklistingz"> <button class="ui-btn  m-auto mt-10 uppercase ">
+    <a href="https://t.me/fasttracklistingz"> 
+        <button class="ui-btn   m-auto mt-10 uppercase ">
             <span class="text-white">
               Get In Touch
             </span>
