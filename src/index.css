@@ -60,6 +60,37 @@ body{
     transition: 1s;
   }
 
+  .underlineMe{
+     position: relative;
+  }
+
+  .underlineMe::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    border-top: solid 4px red;
+    left: 0;
+    bottom: -10px;
+    border-radius: 50%;
+    height: 8px;
+  }
+
+  .underlineMe_Mv{
+     position: relative;
+  }
+
+  .underlineMe_Mv::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    border-top: solid 4px red;
+    left: 0;
+    bottom: -10px;
+    border-radius: 50%;
+    height: 8px;
+    margin-left: 400px;
+  }
+
 
     /* project button */
     
@@ -435,7 +466,7 @@ width: 25rem;
 .glass_container5{
     /* From https://css.glass */
 background: rgba(58, 58, 58, 0.329);
-border-radius: 50px;
+border-radius: 30px;
 box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
 backdrop-filter: blur(25px);
 -webkit-backdrop-filter: blur(25px);
@@ -766,7 +797,7 @@ div .btcwdgt{
       .token1{
         margin-left: -3rem;
         width: 7rem;
-        height: 6rem;
+        height: 5rem;
         padding: 20px;
       }
 
@@ -781,7 +812,7 @@ div .btcwdgt{
         margin-left: -3.8rem;
         text-wrap: nowrap;
         width: 7rem;
-        height: 6rem;
+        height: 5rem;
         padding: 20px;
       }
 
@@ -796,7 +827,7 @@ div .btcwdgt{
         margin-left: -4.5rem;
         text-wrap: nowrap;
         width: 7rem;
-        height: 6rem;
+        height: 5rem;
         padding: 20px;
       }
       .img14{
@@ -809,7 +840,7 @@ div .btcwdgt{
         margin-top: -.8rem;
         text-wrap: nowrap;
         width: 7rem;
-        height: 6rem;
+        height: 5rem;
         padding: 20px;
       }
 
@@ -822,7 +853,7 @@ div .btcwdgt{
       .token5{
         margin-top: -.8rem;
         width: 7rem;
-        height: 6rem;
+        height: 5rem;
         padding: 20px;
       }
 
@@ -1029,6 +1060,22 @@ div .btcwdgt{
      padding: 10px;
      
    }
+
+   .underlineMe{
+    position: relative;
+ }
+
+ .underlineMe::after{
+   content: "";
+   position: absolute;
+   width: 60%;
+   border-top: solid 4px red;
+   left: 0;
+   bottom: -10px;
+   border-radius: 50%;
+   height: 8px;
+   margin-left: 100px;
+ }
 
 
        /* size-adjust of glass_container */
