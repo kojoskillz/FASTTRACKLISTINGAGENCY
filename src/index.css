@@ -34,7 +34,7 @@ body{
     color: #fff;
     -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
     clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
-    height: 40px;
+    height: 90px;
     font-size: 0.7rem;
     line-height: 14px;
     letter-spacing: 1.2px;
@@ -48,10 +48,207 @@ body{
     cursor: pointer;
     transition: all .3s ease-in;
     padding-right: 30px;
-  
     padding-left: 30px;
   }
 
+  .btnX{
+    background:linear-gradient(to right,rgb(233, 43, 43),rgb(255, 80, 80));
+  }
+  
+  .text_hover a:hover{
+    color:rgb(81, 140, 255);
+    transition: 1s;
+  }
+
+
+    /* project button */
+    
+    .ui-btn {
+      --btn-default-bg: rgb(0, 0, 0);
+      --btn-padding: 15px 20px;
+      --btn-hover-bg: rgba(0, 0, 0, 0.777);;
+      --btn-transition: .3s;
+      --btn-letter-spacing: .1rem;
+      --btn-animation-duration: 1.2s;
+      --btn-shadow-color: none;
+      --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+      --hover-btn-color: #fff;
+      --default-btn-color: #fff;
+      --font-size: 16px;
+      /* 👆 this field should not be empty */
+      --font-weight: 600;
+      --font-family: Menlo,Roboto Mono,monospace;
+      /* 👆 this field should not be empty */
+    }
+    
+
+
+
+
+
+/*button-card */
+.ui-btn {
+  box-sizing: border-box;
+  padding: var(--btn-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--default-btn-color);
+  font: var(--font-weight) var(--font-size) var(--font-family);
+  background: var(--btn-default-bg);
+  border: none;
+  cursor: pointer;
+  transition: var(--btn-transition);
+  overflow: hidden;
+  box-shadow: var(--btn-shadow);
+}
+
+.ui-btn span {
+  letter-spacing: var(--btn-letter-spacing);
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  background: inherit;
+}
+
+.ui-btn span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  background: inherit;
+}
+
+.ui-btn:hover, .ui-btn:focus {
+  background: var(--btn-hover-bg);
+}
+
+.ui-btn:hover span, .ui-btn:focus span {
+  color: var(--hover-btn-color);
+}
+
+.ui-btn:hover span::before, .ui-btn:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: "#";
+  }
+
+  5% {
+    content: ".";
+  }
+
+  10% {
+    content: "^{";
+  }
+
+  15% {
+    content: "-!";
+  }
+
+  20% {
+    content: "#$_";
+  }
+
+  25% {
+    content: "№:0";
+  }
+
+  30% {
+    content: "#{+.";
+  }
+
+  35% {
+    content: "@}-?";
+  }
+
+  40% {
+    content: "?{4@%";
+  }
+
+  45% {
+    content: "=.,^!";
+  }
+
+  50% {
+    content: "?2@%";
+  }
+
+  55% {
+    content: "1}]";
+  }
+
+  60% {
+    content: "?{%:%";
+    right: 0;
+  }
+
+  65% {
+    content: "|{f[4";
+    right: 0;
+  }
+
+  70% {
+    content: "{4%0%";
+    right: 0;
+  }
+
+  75% {
+    content: "'1_0<";
+    right: 0;
+  }
+
+  80% {
+    content: "{0%";
+    right: 0;
+  }
+
+  85% {
+    content: "]>'";
+    right: 0;
+  }
+
+  90% {
+    content: "4";
+    right: 0;
+  }
+
+  95% {
+    content: "2";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}
+
+
+
+    /* myimg_effect */
+   
+    .myimg{
+      -webkit-mask-image:radial-gradient( rgba(0,0,0,1) 0%, rgba(0,0,0,0) 65%);
+      mask-image:radial-gradient( rgba(0,0,0,1) 0%, rgba(0,0,0,0) 65%);
+      background-color: #45070767;
+      padding-top: 80px;
+     }
+   
+   
+     .myimg1{
+      -webkit-mask-image:radial-gradient( rgba(0,0,0,1) 0%, rgba(0,0,0,0) 65%);
+      mask-image:radial-gradient( rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+      background-color: #450707;
+      
+      
+     }
+
+
+  .gradient{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.984));
+  }
 
 
   
@@ -92,18 +289,16 @@ body{
 
 
 .sec0{
-    padding-bottom: 10rem;
-    --color: rgba(39, 38, 38, 0.178);
-    background-color: #000000;
-    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
-        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
-    background-size: 55px 55px;
+   background-image: url(../src/components/Homepage/images_home/brendan-beale-9lOttUcEkkA-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 70vw;
   }
 
   .glass_containerX{
     width: 100vw;
     border-bottom-right-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
     position: fixed;
     z-index: 10;
       /* From https://css.glass */
@@ -113,8 +308,9 @@ backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.178);
 
-
   }
+
+
 
   .glow{
     box-shadow: rgba(255, 255, 255, 0.705) 30px 0 240px 65px;
@@ -141,18 +337,19 @@ border: 1px solid rgba(255, 255, 255, 0.178);
   .choose2{
     display: grid;
     place-content: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 
-  .choose_glass{
+  .choose_glass div{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.952), rgba(15, 15, 15, 0.903)100% );
-    border-radius: 45px;
+    border-radius: 15px;
     box-shadow: 0 0 20px rgba(105, 105, 105, 0.115);
     backdrop-filter: blur(45px);
     -webkit-backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.127);     
-    height: 50rem;
+    height: 18rem;
+    width: 27rem;
     padding: 3rem;
     max-width: fit-content;
   }
@@ -214,14 +411,14 @@ width: 25rem;
 
 .glass_container5{
     /* From https://css.glass */
-background: rgba(29, 29, 29, 0.2);
-border-radius: 16px;
+background: rgba(58, 58, 58, 0.329);
+border-radius: 50px;
 box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
+backdrop-filter: blur(25px);
+-webkit-backdrop-filter: blur(25px);
 border: 1px solid rgba(255, 255, 255, 0.178);
-height: 8rem;
-width: 8rem;
+height: 16rem;
+width: 17.5rem;
 
 }
 
@@ -449,17 +646,17 @@ div .btcwdgt{
 
        .text1{
         text-wrap: wrap;
-        font-size: 2.2rem;
+        font-size: 10rem;
         padding: 60px;
         padding-top: 8rem;
        }
 
-       .text2{
+       /* .text2{
         text-wrap: wrap;
         font-size: 15px;
         padding: 20px;
         margin-top: -2.5rem;
-       }
+       } */
 
        .lawn_color1{
         font-size: 5rem;
@@ -840,6 +1037,7 @@ div .btcwdgt{
         display: grid;
         place-content: center;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 10rem;
       }
 
 
@@ -848,45 +1046,28 @@ div .btcwdgt{
         height: 6rem;
       }
 
-      .img0{
-        margin-top: -2.5rem
-      }
-
-      .img_up{
-        padding-top: 2rem;
-      }
-
-      .img_up1{
-        padding-top: 0.5rem;
-      
-      }
-      .img_up2{
-        margin-top: .7rem;
-      }
-      
-      .img_up3{
-        padding-top: 2.5rem;
-      }
-
-      .img_up4{
-        margin-top: .2rem;
-      }
-      .img_up5{
-        padding-top: 1.5rem;
-      }
-      .img_up6{
-        margin-top: -1.5rem;
-      }
-
-
-
        .text1{
         text-wrap: wrap;
-        font-size: 2.2rem;
+        font-size: 3.8rem;
         padding: 60px;
-        padding-top: 8rem;
+        padding-top:14rem;
+        margin-left: 2rem;
        }
 
+       .socials{
+        margin-left: 6rem;
+       }
+
+       .ui-btn{
+        margin-left: 3.5rem;
+       }
+
+       .ui-btn2{
+         margin: auto;
+         margin-top: -4rem;
+         margin-left: 4rem;
+       }
+       
        .text2{
         text-wrap: wrap;
         font-size: 15px;
@@ -895,6 +1076,7 @@ div .btcwdgt{
        }
 
        .lawn_color{
+        text-align: center;
         font-size: 2.6rem;
         text-wrap: wrap;
        }
@@ -909,7 +1091,7 @@ div .btcwdgt{
          font-size: 3.5rem; 
       }
       .chooseX{
-        margin-top: -5rem;
+        margin-top: 2rem;
       }
 
       .choose2{
@@ -964,18 +1146,22 @@ div .btcwdgt{
       }
 
       .text3_p{
-        font-size: 22px;
+        text-align: center;
+        padding: 40px;
+        font-size: 20px;
+        text-wrap: wrap;
         margin-left: -4rem;
       }
 
       .img16{
-        margin-left: -5rem;
+        margin: auto;
         margin-top: -4rem;
       }
 
       .img16X{
         width: 40rem;
-        height: 30rem;
+        height: 33rem;
+        margin-top: 5rem;
         
       }
 
@@ -992,21 +1178,23 @@ div .btcwdgt{
     
 
       .tokens{
+        margin-bottom: -10rem;
         margin-top: 35rem;
         display: grid;
         place-content: center;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr;
       }
 
       .img11{
         margin: auto;
         height: 3.4rem;
         width: 4rem;
+        display: none;
       }
 
       .token1{
-        margin-left: 1rem;
-        width: 7rem;
+        margin-left: -4.5rem;
+        width: 17rem;
         height: 6rem;
         padding: 20px;
       }
@@ -1016,12 +1204,13 @@ div .btcwdgt{
         height: 3rem;
         width: 3rem;
         margin: auto;
+        display: none;
       }
 
       .token2{
-        margin-left: -1.7rem;
+        margin-left: -4.5rem;
         text-wrap: nowrap;
-        width: 7rem;
+        width: 17rem;
         height: 6rem;
         padding: 20px;
       }
@@ -1031,12 +1220,13 @@ div .btcwdgt{
         height: 2.8rem;
         width: 3.2rem;
         object-fit: contain;
+        display: none;
       }
 
       .token3{
-        margin-left: 1rem;
+        margin-left: -4.5rem;
         text-wrap: nowrap;
-        width: 7rem;
+        width: 17rem;
         height: 6rem;
         padding: 20px;
       }
@@ -1044,36 +1234,38 @@ div .btcwdgt{
         margin: auto;
         height: 3.3rem;
         width: 3.3rem;
+        display: none;
       }
 
       .token4{
         margin-top: -0.1rem;
         text-wrap: nowrap;
-        width: 7rem;
+        width: 17rem;
         height: 6rem;
         padding: 20px;
-        margin-left: -1.5rem;
+        margin-left: -4.5rem;
       }
 
       .img15{
         margin: auto;
         height: 3.4rem;
         width: 4rem;
+        display: none;
       }
 
       .token5{
         margin-top: -0.1rem;
-        width: 7rem;
+        width:17rem;
         height: 6rem;
         padding: 20px;
-        margin-left: 1rem;
+        margin-left: -4.5rem;
       }
       .token6{
         margin-top: -0.1rem;
-        width: 7rem;
-        height: 6rem;
+        width: 17rem;
+        height: rem;
         padding: 20px;
-        margin-left: -1.5rem;
+        margin-left: -4.5rem;
       }
 
 
@@ -1085,12 +1277,50 @@ div .btcwdgt{
         font-size: 20px;
       }
 
+
+      .marquee{
+        position: absolute;
+        margin-top: -73rem;
+      }
+
+      .marquee_text{
+        text-align: center;
+        display: grid;
+        place-content: center;
+        margin: auto;
+        margin-bottom: 3rem;
+      }
+
+      .maq-width{
+        width: 20rem;
+      }
+
       .partners{
-        margin-top: 5rem;
+         margin-top: 7rem;
+         margin-bottom: 5rem;
          display: grid;
          place-content: center;
          grid-template-columns: 1fr 1fr;
          gap: 15px;
+      }
+
+      .partner_text{
+        display: grid;
+        place-content: center;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+        text-wrap: wrap;
+
+      }
+
+      .partners1{
+         margin: auto;
+         display: grid;
+         place-content: center;
+         margin-top: 20rem;
+      
       }
 
 
@@ -1172,7 +1402,7 @@ div .btcwdgt{
 
      .footer{
       display: grid;
-      margin-top: -18rem;
+      margin-top: -8rem;
       margin-left: -1rem;
       text-wrap: wrap;
      }
@@ -1253,7 +1483,7 @@ div .btcwdgt{
 
       .partners{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
       }
 
       .img16{
