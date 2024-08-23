@@ -249,7 +249,7 @@ const homepage = () => {
 
       <div className='mt-[3rem] '>
 
-        <h1 className='text-white  underlineMe_Mv text-wrap text-5xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
+        <h1 className='text-white  underlineMe_Mv underlineMe  text-wrap text-5xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
           Members Accomplishment
         </h1>
         <h3 className=' lawn_color1  text-wrap text-lg mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
