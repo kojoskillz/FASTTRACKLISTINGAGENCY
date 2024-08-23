@@ -2,10 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/navbar';
 import Homepage from './components/Homepage/homepage';
-import FAQ from './components/FAQ/FAQ';
+import Marquee from './components/Marquee/marquee';
 import Footer from './components/Footer/footer';
-
-
 
 
 const App = () => {
@@ -13,7 +11,7 @@ const App = () => {
     <>
          <Navbar />
          <Homepage />
-         <FAQ />
+         <Marquee />
          <Footer />
     </>
   )
