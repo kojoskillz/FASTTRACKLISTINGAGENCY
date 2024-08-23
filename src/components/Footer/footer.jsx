@@ -5,7 +5,7 @@ import telegram from './telegram.png';
 
 const footer = () => {
   return (
-    <div className='bg-black pb-[2rem] rounded-t-3xl border-red-600/20 border-y-2 footer' id='Contact_Us'>
+    <div className='bg-black pb-[2rem] mt-[40rem] rounded-t-3xl border-red-600/20 border-y-2 footer' id='Contact_Us'>
       <div className=' p-12 text-xl'>
             <h1 className='font-extrabold text-white text-4xl jockey-one-regular footer_text'>
                     <span className='lawn_color1 text-4xl footer_text'>FastTrack</span>ListingAgency
@@ -13,7 +13,6 @@ const footer = () => {
             <p className='text-white text-lg   0 .112 '>
                 We provide the best services by listing you on our platform and connecting you with a global network of investors.
             </p>
-
 
             <div>
                 <div className='flex mt-10'>
@@ -55,11 +54,10 @@ const footer = () => {
               <div className='fade_rule m-auto place-content-center grid'></div>
             </div>
     {/* Quicklinks */}
-<div className='grid  place-content-center m-auto'>
-<div className='text-white font-light text-base m-auto place-content-center flex'>
+ <div className='grid  place-content-center m-auto'>
+       <div className='text-white font-light text-base m-auto place-content-center flex'>
            <ul className='flex gap-5 jockey-one-regular  text8'>
               <li><a href="#Home" className='cursor-pointer hover:text-red-600'>Home</a></li>
-              <li><a href="#About Us" className='cursor-pointer hover:text-red-600'>About Us</a></li>
               <li><a href="#Services" className='cursor-pointer hover:text-red-600'>Services</a></li>
               <li><a href="#Contact Us" className='cursor-pointer hover:text-red-600'>Contact Us</a></li>
            </ul>
