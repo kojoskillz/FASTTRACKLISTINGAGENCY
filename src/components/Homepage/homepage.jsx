@@ -60,7 +60,7 @@ const homepage = () => {
       {/* our_services */}
       <div className='mb-[10rem] ml-14 mt-[10rem] m-auto' id='Services' >
         <div className='grid p-6'>
-          <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
+          <h1 className='text-white underlineMe text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
           </h1>
           <p className='text-xl text-white text-wrap pt-5 text3_p' data-aos='fade-up' data-aos-duration='2000'>
@@ -249,7 +249,7 @@ const homepage = () => {
 
       <div className='mt-[3rem] '>
 
-        <h1 className='text-white text-wrap text-5xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
+        <h1 className='text-white  underlineMe_Mv text-wrap text-5xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
           Members Accomplishment
         </h1>
         <h3 className=' lawn_color1  text-wrap text-lg mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
