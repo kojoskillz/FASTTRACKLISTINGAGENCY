@@ -227,6 +227,29 @@ body{
 
 
 
+
+.container_glassA{
+  background-color: rgb(9, 9, 9);
+  border-radius: 9px;
+  width: 30vw;
+  padding: 10px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.038);  
+}
+
+.container_glass_h1{
+  color: #ffe8e8;
+}
+
+::-moz-selection{
+  background: #450707;
+}
+::selection{
+  background: #450707;
+}
+
+
     /* myimg_effect */
    
     .myimg{
@@ -988,6 +1011,25 @@ div .btcwdgt{
         border-bottom-left-radius: 30px;
        }
 
+       .container_glassY{
+        grid-template-columns: 1fr;
+        display: grid;
+        place-content: center;
+        margin: auto;
+        margin-top: 13rem;
+        font-weight: lighter;
+   }
+
+   .container_glassA{
+     height: 26vh;
+     width: 21rem;
+     border: 1px solid rgba(75, 75, 75, 0.095);
+     background-color: rgb(10, 10, 10);
+     border-radius: 10px;
+     padding: 10px;
+     
+   }
+
 
        /* size-adjust of glass_container */
       
@@ -1044,24 +1086,22 @@ div .btcwdgt{
         text-wrap: wrap;
         font-size: 3.8rem;
         padding: 60px;
-        padding-top:14rem;
-        margin-left: 5rem;
+        padding-top:13rem;
+        margin-left: 2rem;
        }
 
-       
-
        .socials{
-        margin-left: 9rem;
+        margin-left: 6rem;
        }
 
        .ui-btn{
-        margin-left: 6.5rem;
+        margin-left: 3.5rem;
        }
 
        .ui-btn2{
          margin: auto;
-         margin-top: -4rem;
-         margin-left: 5rem;
+         margin-top: -5rem;
+         margin-left: 3rem;
        }
        
        .text2{
