@@ -17,48 +17,53 @@ import img16 from './images_home/img16.png';
 import img17 from './images_home/face2.jpg';
 import logo from './images_home/Fasttrack logo.png';
 import mark from './images_home/checkmark.png';                     
-import img18 from './images_home/img18 (2).png';                     
+import img18 from './images_home/img18 (2).png';     
+import vid from './images_home/video1.mp4';   
+import X from './images_home/X.png';
+import telegram from './images_home/telegram.png';             
  
 
 
 const homepage = () => {
    return (
   // mainpage
-  <div className=' pb-[10rem] sec0 ' id='Home'>
-    <h1 className='font-extrabold text-red-500 text-8xl pt-32 pb-[2rem]  text-wrap text-center grid place-content-center  jockey-one-regular text1'>
-      <span className='lawn_color1 lawn_color2 text-8xl' data-aos='fade-in' data-aos-duration='2000'>Welcome! </span>
-         <span className='text-white  text-7xl font-semibold lawn_color' data-aos='fade' data-aos-duration='2000'>
-                Ready To Elevate Your <br /> Cryptocurrency  project to new heights?
-        </span>
+  <div className=' pb-[10rem] grid m-auto place-content-center ' id='Home' >
+
+<video autoPlay loop muted src= {vid} className='object-cover w-full  h-[45rem] gradient' />
+    <div className=' grid '>
+    <h1 className='ml-10 font-extrabold text-white absolute -mt-[50rem] text-[8rem] pt-32 pb-[2rem]  float-left text-wrap text-left grid place-content-center  jockey-one-regular text1'>
+          Fast Track <br />  Listing Agency.                 
     </h1>
-    {/* <p className='text-slate-50 font-semibold -mt-4  text-xl text-center text2' data-aos='fade' data-aos-duration='2000'>
-      Launch your crypto project to new heights with us! and get listed on top exchanges,<br /> boosting your visibility and credibility.
-    </p> */}
+  
+    <div className='flex w-20 -mt-[18rem] ml-12 cursor-pointer socials gap-3'>
+            <a href="https://x.com/FastTrackAgency"><img src={X} alt="" /></a>
+            <a href="https://t.me/fasttracklistingz"><img src={telegram} alt=""/></a>
+    </div>        
 
-    {/* <div className='m-auto flex gap-7 place-content-center mt-8 ' >
-    <button>
-       <a className="btnY" href="https://t.me/fasttracklistingz">Join Now</a>
-    </button>
-      
-    <div className='bg-transparent rounded-lg b w-32 text-center border-gray-400 glass_containerQ text-white p-2 '>
-       <a className="btnY font-bold   " href="#">Get Enrolled</a>
-    </div>  
-    </div> */}
-
-    {/* horizontal_line */}
-    <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
-        <div className='fade_rule'></div>
+    <div className='m-auto flex gap-7 absolute place-content-left ml-10 mt-[30rem]' >
+    {/* <button>
+       <a className="btnY" href="https://t.me/fasttracklistingz">Get In Touch</a>
+    </button> */}
+    <a href="https://t.me/fasttracklistingz"> <button class="ui-btn m-auto -mt-[45rem] uppercase ">
+            <span class="text-white">
+              Get In Touch
+            </span>
+          </button>
+        </a>       
     </div>
-
+    
+    </div>
+    
+  
 
 
       {/* our_services */}
-      <div className='mb-[10rem] ml-14 mt-[-2rem]' id='Services'>
+      <div className='mb-[10rem] ml-14 mt-[10rem] m-auto' id='Services' >
         <div className='grid p-6'>
           <h1 className='text-white text3 lawn_color service_size font-bold text-7xl float-left text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
           </h1>
-          <p className='text-xl text-white text-wrap pt-5 text3_p ' data-aos='fade-up' data-aos-duration='2000'>
+          <p className='text-xl text-white text-wrap pt-5 text3_p' data-aos='fade-up' data-aos-duration='2000'>
               At Fast-Track, we specialize in fast and effective token listings on CoinMarketCap, <br /> CoinGecko, and top centralized exchanges. We offer strategic consulting,<br /> tailored marketing, and ongoing support to ensure your project gets the attention it deserves.
               <br /> With transparent pricing and a seamless process, we make your success our priority. <br />
                Let's take your crypto project to the next level.
@@ -66,125 +71,83 @@ const homepage = () => {
         </div>
 
         {/* button */}
-        <div className=' p-6 join' data-aos='zoom-in' data-aos-duration='2000'>
-          <button className='buttonY'>
-            <a className="" href="https://t.me/fasttracklistingz">Join Now</a>
+     
+           <div className='m-auto flex gap-7 ui-btn2 absolute place-content-left ml-7 -mt-[2rem]' >
+ 
+    <a href="https://t.me/fasttracklistingz"> <button class="ui-btn  m-auto mt-10 uppercase ">
+            <span class="text-white">
+              Get In Touch
+            </span>
           </button>
-          
-        </div>
+        </a>       
+    </div>
 
-        <div className='absolute float-right ml-[35rem] -mt-[28rem] img16'>
-          <img src={img16} alt="" className='w-[50rem] h-[40rem] object-contain img16X' data-aos='fade' data-aos-duration='2000' />
+        <div className='absolute float-right ml-[42rem] -mt-[28rem] img16'>
+          <img src={img16} alt="" className='w-[50rem] h-[40rem] object-contain img16X myimg' data-aos='fade' data-aos-duration='2000' />
         </div>
 
         {/* images of tokens */}
-        <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
-        <div className='flex mt-12 gap-5 tokens '>
+        <div className='m-auto grid place-content-center'> 
+          <div className='grid grid-cols-4  m-auto place-content-center mt-56 gap-7 tokens '>
 
-
-          <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3000'>
-            <img src={img13} alt="" className='w-16 h-16 img11' />
-            <h1 className='text-gray-500  text-nowrap text-lg text-center '>
-              CMC listing
-            </h1>
-          </div>
-          <div className=' glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='2500'>
-            <img src={img15} alt="" className='w-16 h-16 img12' />
-            <h1 className='text-gray-500  text-lg text-center '>
-              CG Listing
-            </h1>
-          </div>
-          <div className=' glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='2000'>
-            <img src={img12} alt="" className='w-16 h-16 img13' />
-            <h1 className='text-gray-500  text-lg text-center  '>
-            Top Tier Cex
-            </h1>
-          </div>
-          <div className=' glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='1500'>
-            <img src={img14} alt="" className='w-16 h-16 img14' />
-            <h1 className='text-gray-500  text-lg text-center '>
-                Marketing
-            </h1>
-          </div>
-          <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='1000'>
-            <img src={img11} alt="" className='w-16 h-16 img15' />
-            <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
-              Shilling
-            </h1>
-          </div>
-          <div className=' glass_container5 grid place-content-center token5 token6' data-aos='zoom-in' data-aos-duration='1000'>
-            <img src={img18} alt="" className='w-16 h-16 img15' />
-            <h1 className='text-gray-500 text-nowrap  text-lg text-center '>
-              Trending
-            </h1>
-          </div>
-
-        </div>
-
-
-      </div>
-
-
-{/* partners */}
-
-   <div className='grid place-content-center m-auto'>
-       <h1 className='text-4xl text-center jockey-one-regular text-white'>
-         Partnered with leading companies such as... 
-       </h1>
-
-{/* images_container */}
-       <div className='m-auto grid place-content-center mt-16 gap-8 partners grid-cols-3'>
-       <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img0} alt="" className='-mt-[5rem] img0' />
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img1} alt="" className='-mt-[2rem] img_up6'/>
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img2} alt="" className='-mt-[3rem] img_up5'/>
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img3} alt="" className='-mt-[3rem]  img_up'/>
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img4} alt="" className='-mt-[3rem] img_up1'/>
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img5} alt="" className='mt-[2rem] img_up2'/>
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img6} alt="" className='-mt-[5rem] img_up3'/>
-          </div>
-          <div className='bg-white h-[10rem] w-[20rem] img0_box rounded-2xl' >
-              <img src={img7} alt="" className='mt-[1rem] img_up4'/>
-          </div>
-            
-       </div>
-
-<div>
+<div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img13} alt="" className='w-32 h-32 img11' />
+   <h1 className='text-white  text-nowrap text-3xl mt-3  text-center '>
+     CMC listing
+   </h1>
+ </div>
+ <div className=' glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img15} alt="" className='w-32 h-32 img12' />
+   <h1 className='text-white  text-3xl mt-3 text-center '>
+     CG Listing
+   </h1>
+ </div>
+ <div className=' glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img12} alt="" className='w-32 h-32 img13' />
+   <h1 className='text-white  text-3xl mt-3 text-center  '>
+   Top Tier Cex
+   </h1>
+ </div>
+ <div className=' glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img14} alt="" className='w-32 h-32 img14' />
+   <h1 className='text-white  text-3xl mt-3 text-center '>
+       Marketing
+   </h1>
+ </div>
+ <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img11} alt="" className='w-32 h-32 img15' />
+   <h1 className='text-white text-nowrap mt-3 text-3xl text-center '>
+     Shilling
+   </h1>
+ </div>
+ <div className=' glass_container5 grid place-content-center token5 token6' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img18} alt="" className='w-32 h-32 img15' />
+   <h1 className='text-white text-nowrap mt-3  text-3xl text-center '>
+     Trending
+   </h1>
+ </div>
 
 </div>
 
-   </div>
 
 
-
-
-     
-      {/* glow */}
-      <span className='glow ' data-aos='fade' data-aos-duration='2000'></span>
-
+</div></div>
+       
+  {/* horizontal_line */}
+  <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
+        <div className='fade_rule'></div>
+    </div>
 
 
       {/* why_choose_us */}
-      <div className='grid jockey-one-regular place-content-center mt-[8rem] m-auto  mb-2 p-20 '>
+      <div className='grid jockey-one-regular place-content-center -mt-[5rem] m-auto  mb-2 p-20 '>
         {/* left_float */}
-        <h1 className='text-white  lawn_color font-bold text-8xl  chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
+        <h1 className='text-white  lawn_color font-bold text-8xl mb-10 chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
         </h1>
         
         {/* choose2 */}
-        <div className='grid choose2  choose_glass m-auto place-content-center  mt-[5+rem] gap-11'>
+        <div className='grid choose2  choose_glass m-auto place-content-center  mt-[5rem] gap-y-3 gap-x-8 '>
                <div className='flex gap-5 -ml-5 place-content-center choose3'>
                     <img src={mark} alt="" className='w-12 h-12' />
                     <h1 className='text-gray-400  jockey-one-regular text-md '>
@@ -264,7 +227,7 @@ const homepage = () => {
 
       <div className='mt-[3rem] '>
 
-        <h1 className='text-white text-wrap text-7xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
+        <h1 className='text-white text-wrap text-5xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
           Members Accomplishment
         </h1>
         <h3 className=' lawn_color1  text-wrap text-lg mt-4 text-center jockey-one-regular text4_p' data-aos='fade-in' data-aos-duration='2000'>
@@ -273,7 +236,7 @@ const homepage = () => {
 
         <div className='flex place-content-center gap-12 grid_rate'>
           <div className='grid text-wrap text-center mt-20'>
-            <h1 className='text-8xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-6xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               100+
             </h1>
             <h3 className=' lawn_color1 text-lg rate_p' data-aos='slide-up' data-aos-duration='2000'>
@@ -285,7 +248,7 @@ const homepage = () => {
             </p>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up jockey-one-regular'>
-            <h1 className='text-8xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-6xl jockey-one-regular  text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               95%
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
@@ -297,7 +260,7 @@ const homepage = () => {
           </div>
 
           <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
-            <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-6xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               50+
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
@@ -308,7 +271,7 @@ const homepage = () => {
             </p>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
-            <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-6xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               10x
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
@@ -319,7 +282,7 @@ const homepage = () => {
             </p>
           </div>
           <div className='grid text-wrap text-center mt-20 rate_up rate_p_up jockey-one-regular'>
-            <h1 className='text-8xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
+            <h1 className='text-6xl jockey-one-regular text-white rate' data-aos='slide-up' data-aos-duration='1000'>
               80%
             </h1>
             <h3 className=' lawn_color1 text-lg  rate_p' data-aos='slide-up' data-aos-duration='2000'>
@@ -354,9 +317,148 @@ const homepage = () => {
 
 
 
-    </div>
- 
+      {/* FAQ */}
+    {/* FREQUENTLY ASKED QUESTIONS */}
+      <div className='mb-[10rem] m-auto mt-44'>
+      
+        <div className='jockey-one-regular text-5xl lawn_color mb-32 FAQ_h1 text-center -mt-20'>
+            Frequently Asked Questions
+        </div>
 
+     <div className='w-[50rem] m-auto FAQ -mt-20'>
+                    <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                      <input type="radio" name="my-accordion-2" defaultChecked />
+                      <div className="collapse-title text-xl font-medium">What services does your agency provide?
+                      </div>
+                       <div className="collapse-content">
+                        <p>We offer a range of services including token listings on CoinMarketCap and CoinGecko, marketing, shilling, trending, community management, and growth strategies.
+                        </p>
+                      </div>
+                    </div>
+                 
+                    <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">How long does the token listing process take?
+                    </div>
+                    <div className="collapse-content">
+                        <p>We expedite listings by up to 80%.. within 24 - 72hrs.  The exact timeframe depends on the platform and specific requirements of your token.
+                        </p>
+                    </div>
+                    </div>
+                    <div className="collapse collapse-arrow  rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">Do you list tokens with low volume?
+                    </div>
+                    <div className="collapse-content">
+                        <p>
+                        Yes, we do list tokens with low volume. Our focus is on helping projects of all sizes gain visibility and traction. We work with you to develop strategies that can enhance your token’s market presence and drive growth.
+                        </p>
+                    </div>
+                    </div>
+                    <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">
+                        What are your pricing structures?
+                    </div>
+                    <div className="collapse-content">
+                        <p>
+                        Our pricing is transparent and varies based on the services you choose. We offer detailed quotes tailored to your project’s needs, with no hidden fees.
+                        </p>
+                    </div>
+                    </div>
+                    <div className="collapse collapse-arrow  rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">
+                    How do you support community growth?
+                    </div>
+                    <div className="collapse-content">
+                        <p>
+                        We employ targeted marketing campaigns, community engagement strategies, and shilling efforts to build and grow your token’s community effectively
+                        </p>
+                    </div>
+                    </div>
+                    <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">
+                    Do you charge advance payment?
+                    </div>
+                    <div className="collapse-content">
+                        <p>
+                        Yes, we typically require advance payment to begin work on our services. This ensures that we can allocate the necessary resources and prioritize your project. The exact terms and payment structure will be detailed in our initial agreement.
+                        </p>
+                    </div>
+                    </div>
+                    <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200  mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">
+                        How do I get started with your services?
+                    </div>
+                    <div className="collapse-content">
+                        <p>
+                        Simply reach out to us through our telegram or contact form . We’ll discuss your project’s needs and create a tailored plan to achieve your goals.
+                        </p>
+                    </div>
+                    </div>
+                    <div className="collapse collapse-arrow  rounded-lg bg-gray-500/5 bg-base-200 mb-5">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium">
+                    Do you offer post-listing support?
+                    </div>
+                    <div className="collapse-content">
+                        <p>
+                        Yes, we provide ongoing support after the listing to help you navigate challenges and capitalize on growth opportunities.
+                        </p>
+                    </div>
+                </div>
+                
+
+        </div>
+
+
+{/* ends */}
+    </div>
+
+
+{/* partners */}
+<div className='grid place-content-center partners1 -mb-[40rem]  m-auto'>
+       <h1 className='text-4xl   text-center partner_text jockey-one-regular text-white'>
+           Partnered with leading companies such as... 
+       </h1>
+
+{/* images_container */}
+       <div className='m-auto grid place-content-center partners mt-16 gap-8 grid-cols-4'>
+           <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img0} alt="" className='mt-[-2.5rem] img0' />
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img1} alt="" className='-mt-[1.5rem] img_up6'/>
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img2} alt="" className='-mt-[1.5rem] img_up5'/>
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img3} alt="" className='-mt-[1.3rem]  img_up'/>
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img4} alt="" className='-mt-[2.4rem] img_up1'/>
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img5} alt="" className='mt-[.8rem] img_up2'/>
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img6} alt="" className='-mt-[2.2rem] img_up3'/>
+          </div>
+          <div className='bg-white h-[5rem] w-[10rem] img0_box rounded-2xl' >
+              <img src={img7} alt="" className='mt-[.2rem] img_up4'/>
+          </div>
+            
+       </div>
+
+</div>
+
+
+
+</div>
 
 
 )
