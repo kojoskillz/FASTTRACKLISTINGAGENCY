@@ -146,79 +146,100 @@ const homepage = () => {
         <h1 className='text-white  lawn_color font-bold text-8xl mb-10 chooseX float-left text-nowrap  jockey-one-regular choose' data-aos='fade' data-aos-duration='2000'>
           Why <span className=''>Choose</span><br /> Us?
         </h1>
-        
-        {/* choose2 */}
-        <div className='grid choose2  choose_glass m-auto place-content-center  mt-[5rem] gap-y-3 gap-x-8 '>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-                    <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                       <b className='text-white text-lg '>Industry Expertise: </b> 
-                      Our team is comprised of seasoned professionals with extensive experience in the cryptocurrency space. 
-                      We understand the intricacies of token listings and have a proven track record of successful placements 
-                      on CoinMarketCap, CoinGecko, and leading centralized exchanges.
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-                    <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                        <b className='text-white text-lg'>  Strategic Partnerships: </b>
-                        We’ve built strong relationships with major platforms and exchanges. This enables us to streamline the listing process, 
-                        ensuring your token gains visibility on the most influential platforms in the crypto world.
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-                    <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                        <b className='text-white text-lg'> Comprehensive Services: </b>
-                        We offer a full suite of services that go beyond just listing your token. From strategic advice and compliance guidance to
-                         marketing and community building, we support your project at every stage to maximize its potential.
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-               <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                    <b className='text-white text-lg'> Fast and Efficient: </b>
-                    Time is critical in the fast-paced world of cryptocurrency. Our efficient processes and insider knowledge allow us to expedite the listing process,
-                     getting your token to market quickly without sacrificing quality or compliance.
 
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-               <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                       <b className='text-white text-lg '> Transparent Pricing: </b> 
-                        We believe in transparency. Our pricing models are straightforward, with no hidden fees. You’ll know exactly what to expect,
-                        allowing you to plan and budget effectively.
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-               <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                    <b className='text-white text-lg'>Customized Solutions: </b>
-                    We recognize that every project is unique. Our team works closely with you to tailor our services to meet your specific needs, ensuring that 
-                    your token receives the attention and strategy it deserves.
+{/* main_container */}
+        <div className='grid grid-cols-3 gap-y-5 gap-x-20 md:grid container_glassY  place-content-center'>   
+          {/* container */}
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'>Industry Expertise </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                          Our team is comprised of seasoned professionals with extensive experience in the cryptocurrency space. 
+                          We understand the intricacies of token listings and have a proven track record of successful placements 
+                          on CoinMarketCap, CoinGecko, and leading centralized exchanges.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'>Strategic Partnerships </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                      We’ve built strong relationships with major platforms and exchanges. This enables us to streamline the listing process, 
+                      ensuring your token gains visibility on the most influential platforms in the crypto world.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'>Comprehensive Services</h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                      We offer a full suite of services that go beyond just listing your token. From strategic advice and compliance guidance to
+                      marketing and community building, we support your project at every stage to maximize its potential.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'> Fast and Efficient </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                      Time is critical in the fast-paced world of cryptocurrency. Our efficient processes and insider knowledge allow us to expedite the listing process,
+                      getting your token to market quickly without sacrificing quality or compliance.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'>Transparent Pricing </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                         We believe in transparency. Our pricing models are straightforward, with no hidden fees. You’ll know exactly what to expect,
+                         allowing you to plan and budget effectively.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'>Customized Solutions </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                      We recognize that every project is unique. Our team works closely with you to tailor our services to meet your specific needs, ensuring that 
+                      your token receives the attention and strategy it deserves.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'> Proven Success </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                      Our portfolio speaks for itself. We have successfully listed numerous tokens that have gone on to achieve significant trading volumes and investor interest. 
+                      Your success is our priority.
+                      </h1>    
+                </div>
+                
+              <div className='grid container_glassA'>
+                 <div className='flex flex-auto '>
+                      <img src={mark} alt="" className='w-12 h-12' />
+                      <h1 className='text-white text-lg mt-2 font-semibold'> Ongoing Support </h1> 
+                 </div>
+                      <h1 className='font-extralight jockey-one-regular text-sm container_glass_h1'>
+                      Listing your token is just the beginning. We provide ongoing support post-listing, helping you navigate any challenges and seize opportunities 
+                      as your project grows.
+                      </h1>    
+                </div>
+                
 
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-               <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                   <b className='text-white text-lg'> Proven Success: </b>
-                    Our portfolio speaks for itself. We have successfully listed numerous tokens that have gone on to achieve significant trading volumes and investor interest. 
-                    Your success is our priority.
-
-                    </h1>
-               </div>
-               <div className='flex gap-5 -ml-5 place-content-center choose3'>
-               <img src={mark} alt="" className='w-12 h-12' />
-                    <h1 className='text-gray-400  jockey-one-regular text-md '>
-                       <b className='text-white text-lg'> Ongoing Support: </b> 
-                        Listing your token is just the beginning. We provide ongoing support post-listing, helping you navigate any challenges and seize opportunities 
-                        as your project grows.
-                    </h1>
-               </div>
-                         
-             
         </div>
 
       </div>
