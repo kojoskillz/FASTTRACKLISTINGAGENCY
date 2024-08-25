@@ -1765,7 +1765,10 @@ div .btcwdgt{
       }
 
     .fade_rule{
-        width: 650px;
+	    position:absolute;
+            width: 650px;
+	    margin-top:-1rem;
+	    margin-left:19rem;
       }
 
       .lawn_color2{
