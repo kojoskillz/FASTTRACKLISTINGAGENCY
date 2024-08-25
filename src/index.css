@@ -1001,22 +1001,29 @@ div .btcwdgt{
       margin-left: -.0005rem;
     }
 
-    /* .join{
-     margin-left: 30.6em;
-     margin-top: -2.8em;
-     width: 3.8em;
-    } */
-
-    /* .joinX{
-      position: fixed;
-    } */
-
-    /* .btn_text{
-       margin: auto;
-       display: grid;
-       place-content: center;
-    } */
+ 
     }
+
+
+
+@media screen and (max-width:1080px) {
+    .socials{
+      margin-top: -13rem;
+    }
+
+    .ui-btn1{
+      margin-top: 4rem;
+    }
+    .ui-btnQ{
+      margin-top: -39rem;
+    }
+
+    
+}
+
+
+
+
   @media screen and (max-width:720px) {
  
 
@@ -1546,6 +1553,7 @@ div .btcwdgt{
     @media screen and  (max-width:1080px) and (orientation:landscape) {
      body,html{
       overflow-x: hidden;
+
      }
      
       nav{
@@ -1585,6 +1593,113 @@ div .btcwdgt{
         height: 50rem;
        }
 
+        .socials{
+        margin-top: -10rem;
+       }
+       .ui-btn{
+        margin-top: -37.3rem;
+       }
+       .ui-btn1{
+        margin-top: 3rem;
+       }
+
+       .video_height{
+        height: 50rem;
+       }
+
+       .text1{
+        margin-top: -54rem;
+       }
+
+       .text3_p{
+        max-width: 25rem;
+        margin-left: -2rem;
+       }
+
+       .fade_rule{
+        margin-top: -8rem;
+       }
+
+       .img16X{
+        margin-left: 13rem;
+        margin-top: 6rem;
+       }
+
+       .tokens{
+        margin-left: 1.5rem;
+       }
+
+       .token1,.token2,.token3,.token4,.token5,.token6{
+        width: 10rem;
+        height: 10rem;
+        margin-left: -1rem;
+       }
+
+       .img11,.img12,.img13,.img14,.img15{
+        width: 6rem;
+        height: 4rem;
+        margin: auto;
+        object-fit: contain;
+       }
+
+       .token_text{
+        text-wrap: wrap;
+        font-size: 24px;
+       }
+
+       .container_glassA{
+        width: 18rem;
+        margin: auto;
+        height: 14rem;
+       }
+
+       .container_glassY{
+        margin: auto;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr 1fr;
+       }
+
+       .landscape_marquee{
+        width: 20rem;
+       }
+
+       
+   .underlineMe{
+    position: relative;
+ }
+
+ .underlineMe::after{
+   content: "";
+   position: absolute;
+   width: 60%;
+   border-top: solid 4px red;
+   left: 0;
+   bottom: -10px;
+   border-radius: 50%;
+   height: 8px;
+   margin-left: 50px;
+ }
+
+   .underlineMe_Mv{
+    position: relative;
+ }
+
+ .underlineMe_Mv::after{
+   content: "";
+   position: absolute;
+   width: 60%;
+   border-top: solid 4px red;
+   left: 0;
+   bottom: -10px;
+   border-radius: 50%;
+   height: 8px;
+   margin-left: 160px;
+ }
+
+
+
+       
        .choose2{
         margin-top: 27rem;
         display: grid;
