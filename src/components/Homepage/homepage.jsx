@@ -7,14 +7,12 @@ import img4 from './images_home/lbank.png';
 import img5 from './images_home/mexc.png';
 import img6 from './images_home/okx.png';
 import img7 from './images_home/probit.png';
-import img10 from './images_home/logoX.png';
 import img11 from './images_home/shilling (3).png';
 import img12 from './images_home/seo.png';
 import img13 from './images_home/checklist.png';
 import img14 from './images_home/digital-marketing.png';
 import img15 from './images_home/shilling (2).png';
 import img16 from './images_home/img16.png';
-import img17 from './images_home/face2.jpg';
 import logo from './images_home/Fasttrack logo.png';
 import mark from './images_home/checkmark.png';                     
 import img18 from './images_home/img18 (2).png';     
@@ -29,22 +27,21 @@ const homepage = () => {
   // mainpage
   <div className=' pb-[10rem] grid m-auto place-content-center main_p ' id='Home' >
  
-     <video autoPlay loop muted src= {vid} className='object-cover w-full  h-[45rem] gradient' />
+     <video autoPlay loop muted src={vid} className='object-cover w-full  h-[45rem] video_height gradient' />
     <div className=' grid '>
-    <h1 className='ml-10 font-extrabold text-white absolute -mt-[50rem] text-[8rem] pt-32 pb-[2rem]  float-left text-wrap text-left grid place-content-center  jockey-one-regular text1'>
-          Fast Track <br />  Listing Agency.                 
-    </h1>
-  
+        <h1 className='ml-10 font-extrabold text-white absolute -mt-[50rem] text-[8rem] pt-32 pb-[2rem]  float-left text-wrap text-left grid place-content-center  jockey-one-regular text1'>
+              Fast Track <br />  Listing Agency.                 
+        </h1>
+      
     <div className='flex w-20 -mt-[18rem] ml-12 cursor-pointer socials gap-3'>
             <a href="https://x.com/FastTrackAgency"><img src={X} alt="" /></a>
             <a href="https://t.me/fasttracklistingz"><img src={telegram} alt=""/></a>
     </div>        
 
     <div className='m-auto flex gap-7 absolute place-content-left ml-10 mt-[30rem]' >
-    {/* <button>
-       <a className="btnY" href="https://t.me/fasttracklistingz">Get In Touch</a>
-    </button> */}
-    <a href="https://t.me/fasttracklistingz"> <button class="ui-btn m-auto -mt-[45rem] uppercase ">
+  
+    <a href="https://t.me/fasttracklistingz">
+        <button class="ui-btn ui-btnQ m-auto -mt-[45rem] uppercase ">
             <span class="text-white">
               Get In Touch
             </span>
@@ -75,7 +72,7 @@ const homepage = () => {
  <div className='m-auto flex gap-7 ui-btn2 absolute place-content-left ml-7 -mt-[2rem]' >
  
     <a href="https://t.me/fasttracklistingz"> 
-        <button class="ui-btn   m-auto mt-10 uppercase ">
+        <button class="ui-btn ui-btn1   m-auto mt-10 uppercase ">
             <span class="text-white">
               Get In Touch
             </span>
@@ -93,37 +90,37 @@ const homepage = () => {
 
 <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img13} alt="" className='w-32 h-32 img11' />
-   <h1 className='text-white  text-nowrap text-3xl mt-3  text-center '>
+   <h1 className='text-white  text-nowrap text-3xl token_text mt-3  text-center '>
      CMC listing
    </h1>
  </div>
  <div className=' glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img15} alt="" className='w-32 h-32 img12' />
-   <h1 className='text-white  text-3xl mt-3 text-center '>
+   <h1 className='text-white  text-3xl token_text mt-3 text-center '>
      CG Listing
    </h1>
  </div>
  <div className=' glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img12} alt="" className='w-32 h-32 img13' />
-   <h1 className='text-white  text-3xl mt-3 text-center  '>
+   <h1 className='text-white  text-3xl token_text mt-3 text-center  '>
    Top Tier Cex
    </h1>
  </div>
  <div className=' glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img14} alt="" className='w-32 h-32 img14' />
-   <h1 className='text-white  text-3xl mt-3 text-center '>
+   <h1 className='text-white  text-3xl token_text mt-3 text-center '>
        Marketing
    </h1>
  </div>
  <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img11} alt="" className='w-32 h-32 img15' />
-   <h1 className='text-white text-nowrap mt-3 text-3xl text-center '>
+   <h1 className='text-white text-nowrap token_text mt-3 text-3xl text-center '>
      Shilling
    </h1>
  </div>
  <div className=' glass_container5 grid place-content-center token5 token6' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img18} alt="" className='w-32 h-32 img15' />
-   <h1 className='text-white text-nowrap mt-3  text-3xl text-center '>
+   <h1 className='text-white text-nowrap token_text mt-3 text-3xl text-center '>
      Trending
    </h1>
  </div>
@@ -148,7 +145,7 @@ const homepage = () => {
         </h1>
 
 {/* main_container */}
-        <div className='grid grid-cols-3 gap-y-5 gap-x-20 md:grid container_glassY  place-content-center'>   
+        <div className='grid grid-cols-3 gap-y-5 gap-x-20 md:grid container_glassY   place-content-center'>   
           {/* container */}
               <div className='grid container_glassA'>
                  <div className='flex flex-auto '>
@@ -337,8 +334,6 @@ const homepage = () => {
         </div>
       </div>
 
-
-
       {/* FAQ */}
     {/* FREQUENTLY ASKED QUESTIONS */}
       <div className='mb-[10rem] m-auto mt-44'>
@@ -349,7 +344,7 @@ const homepage = () => {
 
      <div className='w-[50rem] m-auto FAQ -mt-20'>
                     <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                      <input type="radio" name="my-accordion-2" defaultChecked />
+                        <input type="radio" name="my-accordion-2" defaultChecked />
                       <div className="collapse-title text-xl font-medium">What services does your agency provide?
                       </div>
                        <div className="collapse-content">
@@ -359,7 +354,7 @@ const homepage = () => {
                     </div>
                  
                     <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                       <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">How long does the token listing process take?
                     </div>
                     <div className="collapse-content">
@@ -368,7 +363,7 @@ const homepage = () => {
                     </div>
                     </div>
                     <div className="collapse collapse-arrow  rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                       <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">Do you list tokens with low volume?
                     </div>
                     <div className="collapse-content">
@@ -378,7 +373,7 @@ const homepage = () => {
                     </div>
                     </div>
                     <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                      <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         What are your pricing structures?
                     </div>
@@ -389,40 +384,40 @@ const homepage = () => {
                     </div>
                     </div>
                     <div className="collapse collapse-arrow  rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                      <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                     How do you support community growth?
                     </div>
                     <div className="collapse-content">
                         <p>
-                        We employ targeted marketing campaigns, community engagement strategies, and shilling efforts to build and grow your token’s community effectively
+                             We employ targeted marketing campaigns, community engagement strategies, and shilling efforts to build and grow your token’s community effectively
                         </p>
                     </div>
                     </div>
                     <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                       <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
-                    Do you charge advance payment?
+                          Do you charge advance payment?
                     </div>
                     <div className="collapse-content">
                         <p>
-                        Yes, we typically require advance payment to begin work on our services. This ensures that we can allocate the necessary resources and prioritize your project. The exact terms and payment structure will be detailed in our initial agreement.
+                            Yes, we typically require advance payment to begin work on our services. This ensures that we can allocate the necessary resources and prioritize your project. The exact terms and payment structure will be detailed in our initial agreement.
                         </p>
                     </div>
                     </div>
                     <div className="collapse collapse-arrow rounded-lg bg-gray-500/5 bg-base-200  mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                       <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         How do I get started with your services?
                     </div>
                     <div className="collapse-content">
                         <p>
-                        Simply reach out to us through our telegram or contact form . We’ll discuss your project’s needs and create a tailored plan to achieve your goals.
+                           Simply reach out to us through our telegram or contact form . We’ll discuss your project’s needs and create a tailored plan to achieve your goals.
                         </p>
                     </div>
                     </div>
                     <div className="collapse collapse-arrow  rounded-lg bg-gray-500/5 bg-base-200 mb-5">
-                    <input type="radio" name="my-accordion-2" />
+                       <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                     Do you offer post-listing support?
                     </div>
@@ -478,12 +473,9 @@ const homepage = () => {
 
 </div>
 
-
-
 </div>
 
-
 )
-}
+};
 
 export default homepage
