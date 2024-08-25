@@ -1765,6 +1765,11 @@ div .btcwdgt{
         object-fit: contain;
       }
 
+      .fade_ruleX{
+        margin-top: -1rem;
+        margin-bottom: 10rem;
+      }
+
     .fade_rule{
       position: absolute;
       margin-top: -1rem;
