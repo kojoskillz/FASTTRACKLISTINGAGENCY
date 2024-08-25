@@ -65,14 +65,14 @@ export default function MarqueeVariant1() {
               {marqueeItems.map((item, index) => (
                 <div key={item.content} className="flex-1 ">
                   <div className=" max-w-60 maq-width  bg-neutral-100 dark:bg-neutral-800 text-neutral-600 rounded-xl p-2 h-full">
-                    <div className="flex items-center gap-2 ">
-                      <div className="size-8 bg-neutral-500/40 rounded-full" />
+                    <div className="flex landscape_marquee items-center gap-2 ">
+                      <div className="size-8  bg-neutral-500/40 rounded-full" />
                       <p className=" text-neutral-600 dark:text-neutral-400 text-lg font-semibold">
                         {item.author}
                       </p>
                     </div>
                     <p className="text-lg mt-2 text-neutral-600 dark:text-neutral-300">
-                      {item.content}
+                      {item.content }
                     </p>
                   </div>
                 </div>
