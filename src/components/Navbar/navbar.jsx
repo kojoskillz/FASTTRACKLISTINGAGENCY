@@ -15,7 +15,6 @@ const navbar = () => {
         <ul className='flex gap-5 text-white m-auto jockey-one-regular text-center  place-content-center ul_list font-semibold pt-4 '>
             
              <li><a href="#Home" className='cursor-pointer hover:text-red-600'>Home</a></li>
-             <li><a href="#About_Us" className='cursor-pointer hover:text-red-600'>About Us</a></li>
              <li><a href="#Services" className='cursor-pointer hover:text-red-600'>Services</a></li>
              <li><a href="#Contact_Us" className='cursor-pointer hover:text-red-600'>Contact Us</a></li>
             
