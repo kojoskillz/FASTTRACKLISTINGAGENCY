@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    
 }
 
 
@@ -1765,10 +1766,10 @@ div .btcwdgt{
       }
 
     .fade_rule{
-	    position:absolute;
-            width: 650px;
-	    margin-top:-1rem;
-	    margin-left:19rem;
+      position: absolute;
+      margin-top: -1rem;
+      margin-left: -19rem;
+        width: 650px;
       }
 
       .lawn_color2{
