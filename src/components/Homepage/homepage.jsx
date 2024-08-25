@@ -132,8 +132,8 @@ const homepage = () => {
 </div></div>
        
   {/* horizontal_line */}
-  <div className='grid place-content-center mb-16 m-auto rounded-full mt-20'>
-        <div className='fade_rule'></div>
+  <div className='grid place-content-center mb-16 m-auto rounded-full mt-20 fade_ruleX'>
+        <div className='fade_rule '></div>
     </div>
 
 
