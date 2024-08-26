@@ -91,6 +91,22 @@ body{
     margin-left: 400px;
   }
 
+  .underlineMe_Mv1{
+    position: relative;
+  }
+  
+  .underlineMe_Mv1::after{
+   content: "";
+   position: absolute;
+   width: 13%;
+   border-top: solid 4px red;
+   left: 0;
+   bottom: -10px;
+   border-radius: 50%;
+   height: 8px;
+   margin-left: 550px;
+  }
+
 
     /* project button */
     
@@ -611,6 +627,98 @@ div .btcwdgt{
   }
 
 
+/* teamcard */
+/* From Uiverse.io by alexruix */
+.card {
+  border:1px solid #ffffff09;
+  width: 220px;
+  height: 254px;
+  background: #0c0c0c;
+  padding: 2rem 1.5rem;
+  transition: box-shadow .3s ease, transform .2s ease;
+  }
+  
+  .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .2s ease, opacity .2s ease;
+  }
+  
+  /*Image*/
+  .card-avatar {
+  --size: 90px;
+  background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transition: transform .2s ease;
+  margin-bottom: 1rem;
+  }
+  
+  /*Card footer*/
+  .card-social {
+    gap: 10px;
+    margin: auto;
+  transform: translateY(200%);
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  transition: transform .2s ease, opacity .2s ease;
+  }
+  
+  .card-social__item {
+  list-style: none;
+  }
+  
+  .card-social__item svg {
+    margin: auto;
+    place-content: center;
+  display: flex;
+  height: 18px;
+  width: 18px;
+  fill: #515F65;
+  cursor: pointer;
+  transition: fill 0.2s ease ,transform 0.2s ease;
+  }
+  
+  /*Text*/
+  .card-title {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 2rem;
+  }
+  
+  .card-subtitle {
+  color: #9caab3;
+  font-size: 0.8em;
+  }
+  
+  /*Hover*/
+  .card:hover {
+  box-shadow: 0 8px 50px #23232333;
+  }
+  
+  .card:hover .card-info {
+  transform: translateY(-5%);
+  }
+  
+  .card:hover .card-social {
+  transform: translateY(100%);
+  opacity: 1;
+  }
+  
+  .card-social__item svg:hover {
+  fill: #e7e7e7;
+  transform: scale(1.1);
+  }
+  
+  .card-avatar:hover {
+  transform: scale(1.1);
+  }
+
 
   /* media_queries */
   @media screen and (max-width:720px) {
@@ -878,6 +986,7 @@ div .btcwdgt{
         font-size: 50px;
       }
 
+  
       .rate_p{
         font-size: 10px;
         text-align: center;
@@ -1083,6 +1192,23 @@ div .btcwdgt{
    height: 8px;
    margin-left: 100px;
  }
+
+ .underlineMe_Mv1{
+  position: relative;
+}
+
+.underlineMe_Mv1::after{
+ content: "";
+ position: absolute;
+ width: 20%;
+ border-top: solid 4px red;
+ left: 0;
+ bottom: -10px;
+ border-radius: 50%;
+ height: 8px;
+ margin-left: 200px;
+}
+
 
 
        /* size-adjust of glass_container */
@@ -1419,6 +1545,10 @@ div .btcwdgt{
       
       }
 
+      .teamCard{
+        display: grid;
+      }
+
 
       .grid_rate{
         display: grid;
@@ -1696,6 +1826,23 @@ div .btcwdgt{
    height: 8px;
    margin-left: 160px;
  }
+
+ 
+ .underlineMe_Mv2{
+  position: relative;
+}
+
+.underlineMe_Mv2::after{
+ content: "";
+ position: absolute;
+ width: 18%;
+ border-top: solid 4px red;
+ left: 0;
+ bottom: -10px;
+ border-radius: 50%;
+ height: 8px;
+ margin-left: 345px;
+}
 
 
 
