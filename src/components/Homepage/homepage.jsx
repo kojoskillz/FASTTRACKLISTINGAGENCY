@@ -370,7 +370,7 @@ const homepage = () => {
         <div class="card">
         <div class="card-info">
         <div class=""><img src={face2} alt="" className='rounded-full w-28 h-28 mb-2 object-cover ' /></div>
-        <div class="card-title">Josephine Ezekiel</div>
+        <div class="card-title">Promise Wilfred</div>
         <div class="card-subtitle"> Co-Founder</div>
         </div>
         <ul class="card-social">
