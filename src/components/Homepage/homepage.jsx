@@ -20,7 +20,7 @@ import vid from './images_home/video1.mp4';
 import X from './images_home/X.png';
 import telegram from './images_home/telegram.png';             
 import face1 from './images_home/face1.png';             
-import face2 from './images_home/face2.png';             
+import face2 from './images_home/face2.jpg';             
  
 
 
@@ -370,7 +370,7 @@ const homepage = () => {
         <div class="card">
         <div class="card-info">
         <div class=""><img src={face2} alt="" className='rounded-full w-28 h-28 mb-2 object-cover ' /></div>
-        <div class="card-title">Promise Wilfred</div>
+        <div class="card-title">Josephine Ezekiel</div>
         <div class="card-subtitle"> Co-Founder</div>
         </div>
         <ul class="card-social">
