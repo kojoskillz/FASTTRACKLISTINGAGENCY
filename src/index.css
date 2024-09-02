@@ -13,7 +13,7 @@
 
 
 body{
-    background-color: black;
+    background-color: #080909d3;
 
 }
 
@@ -67,9 +67,9 @@ body{
   .underlineMe::after{
     content: "";
     position: absolute;
-    width: 40%;
+    width: 13%;
     border-top: solid 4px red;
-    left: 0;
+    left: 480px;
     bottom: -10px;
     border-radius: 50%;
     height: 8px;
@@ -82,13 +82,13 @@ body{
   .underlineMe_Mv::after{
     content: "";
     position: absolute;
-    width: 40%;
+    width: 17%;
     border-top: solid 4px red;
     left: 0;
     bottom: -10px;
     border-radius: 50%;
     height: 8px;
-    margin-left: 400px;
+    margin-left: 650px;
   }
 
   .underlineMe_Mv1{
@@ -98,13 +98,13 @@ body{
   .underlineMe_Mv1::after{
    content: "";
    position: absolute;
-   width: 13%;
+   width: 10%;
    border-top: solid 4px red;
    left: 0;
    bottom: -10px;
    border-radius: 50%;
    height: 8px;
-   margin-left: 550px;
+   margin-left: 680px;
   }
 
 
@@ -129,6 +129,9 @@ body{
     }
     
 
+    .tokens{
+      margin-left: 10rem;
+    }
 
 
 
@@ -424,6 +427,18 @@ border: 1px solid rgba(255, 255, 255, 0.178);
     max-width: fit-content;
   }
 
+  .glass_container_bento{
+    background: linear-gradient(to bottom, #1d20278e, #1d20278e 100% );
+    box-shadow: 0 0 20px rgba(105, 105, 105, 0.086);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(57, 57, 57, 0.132);     
+  }
+
+  .hover_text:hover{
+    cursor: pointer;
+
+  }
 
 
 .glass_container{
@@ -481,15 +496,14 @@ width: 25rem;
 
 .glass_container5{
     /* From https://css.glass */
-background: rgba(58, 58, 58, 0.329);
+background: rgb(26, 26, 26);
 border-radius: 30px;
 box-shadow: 0 0 20px rgba(105, 105, 105, 0.084);
 backdrop-filter: blur(25px);
 -webkit-backdrop-filter: blur(25px);
-border: 1px solid rgba(255, 255, 255, 0.178);
-height: 16rem;
-width: 17.5rem;
-
+border: 1px solid rgba(40, 40, 40, 0.178);
+height: 13rem;
+width: 14rem;
 }
 
 .glass_container6{
@@ -513,8 +527,8 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(15px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.171);
-height: 35rem;
-width: 70rem;
+height: 42rem;
+width: 58rem;
 padding: 5rem;
 }
 
@@ -524,6 +538,14 @@ padding: 5rem;
   column-gap: 2rem;
   row-gap: 2rem;
   margin-left: -32rem;
+}
+
+.btnQ{
+  background: rgba(48, 48, 48, 0.43);
+  border:2px solid white;
+  border-radius: 360px;
+  height: 3rem;
+
 }
 
 
@@ -537,8 +559,77 @@ backdrop-filter: blur(15px);
 border: 1px solid rgba(255, 255, 255, 0.171);
 }
 
-div .btcwdgt{
-  max-width: 100% !important;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box {
+  margin: auto;
+  width: 30em;
+  height: 25rem;
+  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+  position: relative;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.card_box_height{
+  margin-top: 20rem;
+  margin: auto;
+  width: 30em;
+  height: 45rem;
+  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+  position: relative;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+
+
+.card_box span {
+  position: absolute;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box span::before {
+  content: 'Most Popular';
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+  transform: rotate(-45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+}
+
+.card_box span::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #cc3f47;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
 }
 
 
@@ -807,6 +898,8 @@ div .btcwdgt{
         padding-top: 8rem;
        }
 
+
+
        /* .text2{
         text-wrap: wrap;
         font-size: 15px;
@@ -890,10 +983,10 @@ div .btcwdgt{
     
 
       .tokens{
+        margin: auto;
         margin-top: 35rem;
         display: grid;
         place-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
       }
 
       .img11{
@@ -903,7 +996,6 @@ div .btcwdgt{
       }
 
       .token1{
-        margin-left: -3rem;
         width: 7rem;
         height: 5rem;
         padding: 20px;
@@ -917,7 +1009,6 @@ div .btcwdgt{
       }
 
       .token2{
-        margin-left: -3.8rem;
         text-wrap: nowrap;
         width: 7rem;
         height: 5rem;
@@ -932,7 +1023,6 @@ div .btcwdgt{
       }
 
       .token3{
-        margin-left: -4.5rem;
         text-wrap: nowrap;
         width: 7rem;
         height: 5rem;
@@ -1127,6 +1217,12 @@ div .btcwdgt{
       margin-top: -39rem;
     }
 
+    .teamCard{
+      display: grid;
+     
+    }
+
+
     
 }
 
@@ -1256,7 +1352,42 @@ div .btcwdgt{
         margin-bottom: 10rem;
       }
 
+      .about_Us{
+        margin-top: 5rem;
+        grid-template-columns: 1fr;
+        place-content: center;
+        display: grid;
+      }
 
+      .about_Us_P{
+        max-width: 20rem;
+        text-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        font-size: 22px;
+        display: grid;
+      }
+
+      .about_Us_P_Grid{
+        display: grid;
+        place-content: center;
+        text-align: center;
+        margin: auto;
+      }
+
+      .img24{
+        margin: auto;
+         width: 21rem;
+      }
+      .img24X{
+         width: 18rem;
+      }
+
+      .who_we_are{
+        margin-left: -3rem;
+      }
+
+      
       .img0_box{
         width: 11rem;
         height: 6rem;
@@ -1264,10 +1395,10 @@ div .btcwdgt{
 
        .text1{
         text-wrap: wrap;
-        font-size: 3.8rem;
+        font-size: 3.5rem;
         padding: 60px;
         padding-top:13rem;
-        margin-left: 2rem;
+        margin-left: -2rem;
        }
 
        .socials{
@@ -1275,7 +1406,7 @@ div .btcwdgt{
        }
 
        .ui-btn{
-        margin-left: 3.5rem;
+        margin-left: -1rem;
        }
 
        .ui-btn2{
@@ -1290,6 +1421,66 @@ div .btcwdgt{
         padding: 20px;
         margin-top: -2.5rem;
        }
+
+       .cont0{
+        margin: auto;
+        margin-bottom: -25rem;
+       
+       }
+
+       .cont1{
+        display: block;
+        display: grid;
+        max-width: 25rem;
+        margin: auto;
+        place-content: center;
+        margin-top: -8rem;
+       }
+
+       .cont2{
+        display: grid;
+        margin: auto;
+        width: 20rem;
+        display: grid;
+        height: 18rem;
+        margin-top: -7rem;
+       }
+
+       .cont3{
+        width: 20rem;
+        height: 32rem;
+        margin-top: 38rem;
+       }
+
+       .cont4{
+        width: 20rem;
+        height: 10rem;
+        margin-top: -2.3px;
+      }
+
+       .cont5{
+        margin-top: -46rem;
+        padding-bottom: 26rem;
+         height: 30rem;
+         width: 20rem;
+       }
+
+       .cont6{
+        display: none;
+       }
+
+       .cont7{
+        margin-top: -52.5rem;
+        height: 20rem; 
+        width: 20rem;
+      }
+
+      .cont8{
+        margin-top: -23.7rem;
+        height: 30rem;
+        width: 20rem;
+      }
+       
 
        .lawn_color{
         text-align: center;
@@ -1362,15 +1553,24 @@ div .btcwdgt{
       }
      
       .text3{
-        margin-left: -4rem;
-        font-size: 60px;
+        margin: auto;
+        font-size: 35px;
+        margin-top: 10rem;
       }
 
       .text3_p{
-        text-align: center;
+        text-align: left;
+        margin: auto;
         padding: 50px;
-        font-size: 24px;
+        font-size: 22px;
         text-wrap: wrap;
+        margin-top: -4rem;
+        margin-left: -2rem;
+      }
+
+      .btnQ{
+        margin-top: 28rem;
+        margin-left: -25rem;
       }
 
       .img16{
@@ -1400,8 +1600,8 @@ div .btcwdgt{
     
 
       .tokens{
-        margin-bottom: -10rem;
-        margin-top: 35rem;
+        margin-top: 5rem;
+        margin-bottom: -20rem;
         display: grid;
         place-content: center;
         grid-template-columns: 1fr;
@@ -1415,7 +1615,6 @@ div .btcwdgt{
       }
 
       .token1{
-        margin-left: -4.5rem;
         width: 17rem;
         height: 6rem;
         padding: 20px;
@@ -1430,7 +1629,6 @@ div .btcwdgt{
       }
 
       .token2{
-        margin-left: -4.5rem;
         text-wrap: nowrap;
         width: 17rem;
         height: 6rem;
@@ -1446,7 +1644,6 @@ div .btcwdgt{
       }
 
       .token3{
-        margin-left: -4.5rem;
         text-wrap: nowrap;
         width: 17rem;
         height: 6rem;
@@ -1460,12 +1657,10 @@ div .btcwdgt{
       }
 
       .token4{
-        margin-top: -0.1rem;
         text-wrap: nowrap;
         width: 17rem;
         height: 6rem;
         padding: 20px;
-        margin-left: -4.5rem;
       }
 
       .img15{
@@ -1476,18 +1671,13 @@ div .btcwdgt{
       }
 
       .token5{
-        margin-top: -0.1rem;
         width:17rem;
         height: 6rem;
         padding: 20px;
-        margin-left: -4.5rem;
       }
       .token6{
-        margin-top: -0.1rem;
         width: 17rem;
-        height: rem;
         padding: 20px;
-        margin-left: -4.5rem;
       }
 
 
@@ -1547,6 +1737,10 @@ div .btcwdgt{
 
       .teamCard{
         display: grid;
+      }
+
+      .team_Top{
+        margin-top: -30rem;
       }
 
 
@@ -1705,6 +1899,7 @@ div .btcwdgt{
 
        .tokens{
         margin-left: -2rem;
+        
       }
 
 
