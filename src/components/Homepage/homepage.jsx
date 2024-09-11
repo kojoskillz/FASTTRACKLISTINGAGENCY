@@ -264,7 +264,7 @@ const homepage = () => {
   <img src={line} alt="" className='w-[17rem] object-fit'  />
 </div>
 
-     <div className=" xl:px-48 cont1  lg:grid grid-cols-1 grid-rows-12 lg:grid-cols-4 lg:grid-rows-6 bg-dark p-8 gap-4">
+     <div className=" xl:px-48 sm:grid sm:grid-cols-4 cont1  lg:grid grid-cols-1 grid-rows-12 lg:grid-cols-4 lg:grid-rows-6 bg-dark p-8 gap-4">
        <div className="relative cont3  col-span-1 row-span-4  glass_container_bento">
          <h1 className="absolute font-bold top-4 left-4 mr-12 text-md text-white">
             Listing your token is just the beginning. We provide ongoing support post-listing, helping you navigate any challenges and seize opportunities 
