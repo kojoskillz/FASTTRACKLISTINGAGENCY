@@ -59,7 +59,7 @@ const homepage = () => {
       <div className='mb-[10rem] mt-[10rem] grid place-content-center m-auto about_Us' id='Services' >
        
         <h1 className='text-white text-2xl text-center about_Us_P'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
            Numquam dolores odio voluptatibus quasi rem quia similique  
         </h1>
         <div className='flex p-6 gap-20 mt-10 m-auto place-content-center  about_Us_P_Grid'>
