@@ -100,7 +100,7 @@ const homepage = () => {
           <h1 className='text-white underlineMe  text-center  mt-[12rem]   absolute text3 lawn_color service_size font-bold text-4xl text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
           </h1>
-        <div className='grid grid-cols-4  m-auto place-content-center mt-20  gap-7 tokens '>
+        <div className='grid grid-cols-4 m-auto place-content-center mt-20  gap-7 tokens '>
 
 <div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3500'>
    <img src={img13} alt="" className='w-28 h-28 img11' />
@@ -264,7 +264,7 @@ const homepage = () => {
   <img src={line} alt="" className='w-[17rem] object-fit'  />
 </div>
 
-     <div className="hidden xl:px-48 cont1  lg:grid grid-cols-1 grid-rows-12 lg:grid-cols-4 lg:grid-rows-6 bg-dark p-8 gap-4">
+     <div className=" xl:px-48 cont1  lg:grid grid-cols-1 grid-rows-12 lg:grid-cols-4 lg:grid-rows-6 bg-dark p-8 gap-4">
        <div className="relative cont3  col-span-1 row-span-4  glass_container_bento">
          <h1 className="absolute font-bold top-4 left-4 mr-12 text-md text-white">
             Listing your token is just the beginning. We provide ongoing support post-listing, helping you navigate any challenges and seize opportunities 
