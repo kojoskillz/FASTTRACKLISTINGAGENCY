@@ -1808,20 +1808,20 @@ border: 1px solid rgba(255, 255, 255, 0.171);
         margin-top: 7rem;
         font-size: 10px;
         position: relative;
-        margin-left: -55rem;
+        margin-left: -45rem;
         right: -9rem;
       }
 
       .footer_text1{
         text-align: center;
-        font-size: 5.5rem;
+        font-size: 5rem;
       }
 
       .footer_links{
         text-wrap: nowrap;
         gap: 4rem;
         margin-top: 12rem;
-        margin-left: -58rem;
+        margin-left: -51rem;
       }
 
       .grid_rate{
@@ -2324,24 +2324,111 @@ border: 1px solid rgba(255, 255, 255, 0.171);
 
 
 
-      @media screen and (min-width:600px) and (orientation:portrait){
-
-
-        .tokens{
-          margin-left: -10rem;
-        }
+      @media only screen and (min-width:820px) {
 
         .cont0{
-            display: block;
+          margin: auto;
+          margin-top: -3rem;
+          margin-left: 22rem;
+         
+         }
+  
+         .cont1{
+          display: block;
+          display: grid;
+          max-width: 25rem;
+          margin: auto;
+          place-content: center;
+          margin-top:-35rem;
+         }
+  
+         .cont2{
+          display: grid;
+          margin: auto;
+          width: 20rem;
+          display: grid;
+          height: 18rem;
+          margin-top: -7rem;
+         }
+  
+         .cont3{
+          width: 20rem;
+          height: 32rem;
+          margin-top: 38rem;
+         }
+  
+         .cont4{
+          width: 20rem;
+          height: 10rem;
+          margin-top: -2.3px;
         }
+  
+         .cont5{
+          margin-top: -46rem;
+          padding-bottom: 26rem;
+           height: 30rem;
+           width: 20rem;
+         }
+  
+         .cont6{
+          display: none;
+         }
+  
+         .cont7{
+          margin-top: -52.5rem;
+          height: 20rem; 
+          width: 20rem;
+        }
+  
+        .cont8{
+          margin-top: -23.7rem;
+          height: 30rem;
+          width: 20rem;
+        }
+  
+  
+        .tokens{
+          margin-top: 7rem;
+          margin: auto;
+          max-width: 40rem;
+        }
+  
+        .token1{
+          width: 10rem;
+          height: 5rem;
+        }
+  
+        .token2{
+          width: 10rem;
+          height: 5rem;
+        }
+  
+        .token3{
+          width: 10rem;
+          height: 5rem;
+        }
+  
+        .token4{
+          width: 10rem;
+          height: 5rem;
+        }
+      
+        .token5{
+          width: 10rem;
+          height: 5rem;
+        }
+      
+        .token6{
+          width: 10rem;
+          height: 5rem;
+        }
+  
+        .text3{
+          margin-bottom: 5rem;
+        }
+  
 
 
-        .cont1{
-          width: 12rem;
-        }
-        .cont2{
-          width: 12rem;
-        }
       }
       
     }
