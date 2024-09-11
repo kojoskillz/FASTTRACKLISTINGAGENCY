@@ -100,40 +100,40 @@ const homepage = () => {
           <h1 className='text-white underlineMe  text-center  mt-[12rem]   absolute text3 lawn_color service_size font-bold text-4xl text-nowrap  jockey-one-regular ' data-aos='fade' data-aos-duration='2000'>
             Our Services
           </h1>
-        <div className='grid grid-cols-4 m-auto place-content-center mt-20  gap-7 tokens '>
+        <div className='sm:m-auto sm:mt-16  grid grid-cols-4 m-auto place-content-center mt-20  gap-7 tokens '>
 
-<div className=' glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3500'>
-   <img src={img13} alt="" className='w-28 h-28 img11' />
+<div className='sm:h-[10rem] sm:w-[10rem]  lg:h-[15rem] lg:w-[17rem]   glass_container5 grid place-content-center token1' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img13} alt="" className='w-28 h-28 img11 sm:h-[5.5rem] sm:w-[5.5rem]  lg:h-[10rem] lg:w-[10rem]  ' />
    <h1 className='text-white  text-nowrap text-2xl token_text mt-3  text-center '>
      CMC listing
    </h1>
  </div>
- <div className=' glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='3500'>
-   <img src={img15} alt="" className='w-28 h-28 img12' />
+ <div className='sm:h-[10rem] sm:w-[10.5rem]  lg:h-[15rem] lg:w-[17rem]   glass_container5 grid place-content-center token2' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img15} alt="" className='w-28 h-28 img12 sm:h-[5.5rem] sm:w-[5.5rem]  lg:h-[10rem] lg:w-[10rem]  ' />
    <h1 className='text-white  text-2xl token_text mt-3 text-center '>
      CG Listing
    </h1>
  </div>
- <div className=' glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='3500'>
-   <img src={img12} alt="" className='w-28 h-28 img13' />
+ <div className='sm:h-[10rem] sm:w-[10.5rem]  lg:h-[15rem] lg:w-[17rem]   glass_container5 grid place-content-center token3 ' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img12} alt="" className='w-28 h-28 img13 sm:h-[5.5rem] sm:w-[5.5rem]  lg:h-[10rem] lg:w-[10rem]  ' />
    <h1 className='text-white  text-2xl token_text mt-3 text-center  '>
    Top Tier Cex
    </h1>
  </div>
- <div className=' glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='3500'>
-   <img src={img14} alt="" className='w-28 h-28 img14' />
+ <div className='sm:h-[10rem] sm:w-[10.5rem]  lg:h-[15rem] lg:w-[17rem]   glass_container5 grid place-content-center token4' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img14} alt="" className='w-28 h-28 img14 sm:h-[5.5rem] sm:w-[5.5rem]  lg:h-[10rem] lg:w-[10rem]  ' />
    <h1 className='text-white  text-2xl token_text mt-3 text-center '>
        Marketing
    </h1>
  </div>
- <div className=' glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='3500'>
-   <img src={img11} alt="" className='w-28 h-28 img15' />
+ <div className='sm:h-[10rem] sm:w-[10.5rem]  lg:h-[15rem] lg:w-[17rem]   glass_container5 grid place-content-center token5' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img11} alt="" className='w-28 h-28 img15 sm:h-[5.5rem] sm:w-[5.5rem]  lg:h-[10rem] lg:w-[10rem]  ' />
    <h1 className='text-white text-nowrap token_text mt-3 text-2xl text-center '>
      Shilling
    </h1>
  </div>
- <div className=' glass_container5 grid place-content-center token5 token6' data-aos='zoom-in' data-aos-duration='3500'>
-   <img src={img18} alt="" className='w-28 h-28 img15' />
+ <div className='sm:h-[10rem] sm:w-[10.5rem]  lg:h-[15rem] lg:w-[17rem]   glass_container5 grid place-content-center token5 token6' data-aos='zoom-in' data-aos-duration='3500'>
+   <img src={img18} alt="" className='w-28 h-28 img15 sm:h-[5.5rem] sm:w-[5.5rem]  lg:h-[10rem] lg:w-[10rem]  ' />
    <h1 className='text-white text-nowrap token_text mt-3 text-2xl text-center '>
      Trending
    </h1>
@@ -264,7 +264,7 @@ const homepage = () => {
   <img src={line} alt="" className='w-[17rem] object-fit'  />
 </div>
 
-     <div className=" xl:px-48 sm:grid sm:grid-cols-4 cont1  lg:grid grid-cols-1 grid-rows-12 lg:grid-cols-4 lg:grid-rows-6 bg-dark p-8 gap-4">
+     <div className="  xl:px-20  sm:grid sm:grid-cols-4 cont1 sm:mb-[-45rem] lg:mb-[10rem] lg:grid grid-cols-1 grid-rows-12 lg:grid-cols-4 lg:grid-rows-6 bg-dark p-8 gap-4">
        <div className="relative cont3  col-span-1 row-span-4  glass_container_bento">
          <h1 className="absolute font-bold top-4 left-4 mr-12 text-md text-white">
             Listing your token is just the beginning. We provide ongoing support post-listing, helping you navigate any challenges and seize opportunities 
@@ -341,7 +341,7 @@ const homepage = () => {
       {/* </div> */}
 
      {/* our team */}
-     <div className='mt-20 bg-[#1d20278e] team_Top'>
+     <div className='mt-20 bg-[#1d20278e] team_Top '>
                <h1 className='text-white mt-10  underlineMe_Mv1 underlineMe_Mv2 underlineMe   text-wrap text-5xl text-center jockey-one-regular text4' data-aos='fade' data-aos-duration='2000'>
                   Our Team
                </h1>
@@ -350,7 +350,7 @@ const homepage = () => {
 
 {/* team members */}
 
-     <div className='w-full -mt-16 flex m-auto place-content-center  teamCard gap-5 p-20 '>
+     <div className='w-full -mt-16 flex m-auto place-content-center  teamCard gap-5 p-20 sm:flex '>
      <div class="card">
         <div class="card-info">
         <div class=""><img src={face1} alt="" className='rounded-full w-28  h-28 mb-2 object-fill ' /></div>
