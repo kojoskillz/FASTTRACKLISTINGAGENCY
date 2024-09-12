@@ -1346,7 +1346,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
    bottom: -10px;
    border-radius: 50%;
    height: 8px;
-   margin-left: 100px;
+   margin-left: 50px;
  }
 
  .underlineMe_Mv1{
@@ -1362,7 +1362,7 @@ border: 1px solid rgba(255, 255, 255, 0.171);
  bottom: -10px;
  border-radius: 50%;
  height: 8px;
- margin-left: 200px;
+ margin-left: 170px;
 }
 
 
@@ -2427,6 +2427,37 @@ border: 1px solid rgba(255, 255, 255, 0.171);
           margin-bottom: 5rem;
         }
   
+        
+  .underlineMe{
+    position: relative;
+ }
+
+ .underlineMe::after{
+   content: "";
+   position: absolute;
+   width: 13%;
+   border-top: solid 4px red;
+   left: 74rem;
+   bottom: -10px;
+   border-radius: 50%;
+   height: 8px;
+ }
+
+ .underlineMe_Mv1{
+    position: relative;
+ }
+
+ .underlineMe_Mv1::after{
+   content: "";
+   position: absolute;
+   width: 17%;
+   border-top: solid 4px red;
+   left: 20rem;
+   bottom: -10px;
+   border-radius: 50%;
+   height: 8px;
+   margin-left: 45rem;
+ }
 
 
       }
