@@ -20,12 +20,18 @@ const footer = () => {
                             ABOUT US
                         </h1>
                         
-                        <p className='ml-2 text-white mt-4 cursor-pointer' id='Home'>
-                             Home
-                        </p>
-                        <p className='ml-2 text-white mt-3 cursor-pointer ' id='Services'>
-                             Services
-                        </p>
+                        <a href="#Home">  
+                            <p className='ml-2 text-white mt-4 cursor-pointer' id='Home'>
+                                Home
+                            </p>
+                        </a>
+                        
+                        <a href="#Services">
+                            <p className='ml-2 text-white mt-3 cursor-pointer ' id='Services'>
+                                Services
+                            </p>
+                        </a>
+                        
                      </div>
                        
                         <div>
