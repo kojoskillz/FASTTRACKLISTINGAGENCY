@@ -15,7 +15,7 @@ const footer = () => {
                 <div className='flex gap-10 mt-10 pb-56 footer_links'>
                     {/* <span className='h-8 w-1 bg-red-600 absolute '></span> */}
                         
-                    <div className='ml-[40rem] text-wrap  sm:ml-[10rem] lg:ml-[50rem]'>
+                    <div className='ml-[40rem] text-wrap sm:mt-[-2rem] sm:ml-[10rem] lg:ml-[50rem]'>
                         <h1 className='text-white font-bold text-xl ml-2 jockey-one-regular'>
                             ABOUT US
                         </h1>
@@ -35,7 +35,7 @@ const footer = () => {
                      </div>
                        
                         <div>
-                        <h1 className='text-white font-bold text-xl ml-5 jockey-one-regular'>
+                        <h1 className='text-white font-bold text-xl ml-5 jockey-one-regular sm:mt-[-2rem]'>
                             OUR SOCIALS
                         </h1>
                         <div className='grid text-white w-16 mt-4 ml-5 gap-3'>
