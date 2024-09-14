@@ -21,13 +21,13 @@ const footer = () => {
                         </h1>
                         
                         <a href="#Home">  
-                            <p className='ml-2 text-white mt-4 cursor-pointer' id='Home'>
+                            <p className='ml-2 text-white mt-4 cursor-pointer hover:text-red-500' id='Home'>
                                 Home
                             </p>
                         </a>
                         
                         <a href="#Services">
-                            <p className='ml-2 text-white mt-3 cursor-pointer ' id='Services'>
+                            <p className='ml-2 text-white mt-3 cursor-pointer hover:text-red-500 ' id='Services'>
                                 Services
                             </p>
                         </a>
@@ -39,8 +39,8 @@ const footer = () => {
                             OUR SOCIALS
                         </h1>
                         <div className='grid text-white w-16 mt-4 ml-5 gap-3'>
-                               <a href="https://x.com/FastTrackAgency"><h1>Twitter</h1></a>
-                               <a href="https://t.me/fasttracklistingz"><h1>Telegram</h1></a>
+                               <a href="https://x.com/FastTrackAgency"><h1 className='hover:text-red-500'>Twitter</h1></a>
+                               <a href="https://t.me/fasttracklistingz"><h1 className='hover:text-red-500'>Telegram</h1></a>
                         </div>    
                         </div>
                         
@@ -51,11 +51,11 @@ const footer = () => {
  
 
             <div className='mb-10 footer_text'>
-               {/* <marquee behavior="" direction="left" className="text-white h-[100vh] -mt-[20rem] font-medium text-[40rem] absolute z-10 ">
-                       <h1>
+                {/* <marquee behavior="" direction="left" className="text-white h-[100vh] bg-red-600 -mt-[20rem] font-medium text-[40rem] absolute z-10 ">
+                       <h1 className='mt-30'>
                             Let's Talk 
                         </h1>
-                </marquee> */}
+                </marquee>  */}
                     <h1 className='text-[7rem]  mt-10 ml-[35rem] text-wrap footer_text1  text-white hover_text sm:text-wrap sm:ml-4 lg:ml-[40rem] '>
                       Let's Talk    
                     </h1>                        
